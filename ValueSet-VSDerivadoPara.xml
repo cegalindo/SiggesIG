@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSDerivadoPara"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet VSDerivadoPara</b></p><a name="VSDerivadoPara"> </a><a name="hcVSDerivadoPara"> </a><a name="VSDerivadoPara-es-CL"> </a><ul><li>Include all codes defined in <a href="CodeSystem-CSDerivadoPara.html"><code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</code></a></li></ul></div>
+  </text>
+  <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara"/>
+  <version value="0.1.0"/>
+  <name value="VSDerivadoPara"/>
+  <title value="Códigos asociados a la derivación"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-28T09:34:47-03:00"/>
+  <publisher value="HL7 Chile"/>
+  <contact>
+    <name value="HL7 Chile"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hl7chile.cl"/>
+    </telecom>
+  </contact>
+  <description value="Codigos asociados para la derivación de paciente, indicando el objetivo"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+    </include>
+  </compose>
+</ValueSet>

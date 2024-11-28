@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSPrestacion",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem CSPrestacion</b></p><a name=\"CSPrestacion\"> </a><a name=\"hcCSPrestacion\"> </a><a name=\"CSPrestacion-es-CL\"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSPrestacion-1\"> </a></td><td>Prestacion1</td></tr></table></div>"
+  },
+  "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion",
+  "version" : "0.1.0",
+  "name" : "CSPrestacion",
+  "title" : "Códigos de prestaciones",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-28T09:34:47-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl"
+    }]
+  }],
+  "description" : "Codigos para prestaciones",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Prestacion1"
+  }]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSPrestacion"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CSPrestacion</b></p><a name="CSPrestacion"> </a><a name="hcCSPrestacion"> </a><a name="CSPrestacion-es-CL"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSPrestacion-1"> </a></td><td>Prestacion1</td></tr></table></div>
+  </text>
+  <url value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion"/>
+  <version value="0.1.0"/>
+  <name value="CSPrestacion"/>
+  <title value="Códigos de prestaciones"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-28T09:34:47-03:00"/>
+  <publisher value="HL7 Chile"/>
+  <contact>
+    <name value="HL7 Chile"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hl7chile.cl"/>
+    </telecom>
+  </contact>
+  <description value="Codigos para prestaciones"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="1"/>
+    <display value="Prestacion1"/>
+  </concept>
+</CodeSystem>

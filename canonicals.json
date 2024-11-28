@@ -1,0 +1,145 @@
+[
+  {
+    "id" : "CSDerivadoPara",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara",
+    "version" : "0.1.0",
+    "name" : "CSDerivadoPara"
+  },
+  {
+    "id" : "CSExamenes",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes",
+    "version" : "0.1.0",
+    "name" : "CSExamenes"
+  },
+  {
+    "id" : "CSMarca",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca",
+    "version" : "0.1.0",
+    "name" : "CSMarca"
+  },
+  {
+    "id" : "CSPrestacion",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion",
+    "version" : "0.1.0",
+    "name" : "CSPrestacion"
+  },
+  {
+    "id" : "CSPrevision",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision",
+    "version" : "0.1.0",
+    "name" : "CSPrevision"
+  },
+  {
+    "id" : "CSProbSalud",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud",
+    "version" : "0.1.0",
+    "name" : "CSProbSalud"
+  },
+  {
+    "id" : "CSTipoDoc",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc",
+    "version" : "0.1.0",
+    "name" : "CSTipoDoc"
+  },
+  {
+    "id" : "hl7.fhir.cl.sigescg",
+    "type" : "ImplementationGuide",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ImplementationGuide/hl7.fhir.cl.sigescg",
+    "version" : "0.1.0",
+    "name" : "sigescg"
+  },
+  {
+    "id" : "CreacionCaso",
+    "type" : "Questionnaire",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "NotiAtenEsp",
+    "type" : "Questionnaire",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "ProsDiag",
+    "type" : "Questionnaire",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/ProsDiag",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "SolEndoscop",
+    "type" : "Questionnaire",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "TipoDoc",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/TipoDoc",
+    "version" : "0.1.0",
+    "name" : "TipoDoc"
+  },
+  {
+    "id" : "datos-sigges-formularios",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios",
+    "version" : "0.1.0",
+    "name" : "DatosSigesCG"
+  },
+  {
+    "id" : "VSDerivadoPara",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara",
+    "version" : "0.1.0",
+    "name" : "VSDerivadoPara"
+  },
+  {
+    "id" : "VSExamenes",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes",
+    "version" : "0.1.0",
+    "name" : "VSExamenes"
+  },
+  {
+    "id" : "VSMArca",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSMArca",
+    "version" : "0.1.0",
+    "name" : "VSMarca"
+  },
+  {
+    "id" : "VSPrestacion",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion",
+    "version" : "0.1.0",
+    "name" : "VSPrestacion"
+  },
+  {
+    "id" : "VSPrevision",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrevision",
+    "version" : "0.1.0",
+    "name" : "VSPrevision"
+  },
+  {
+    "id" : "VSProbSalud",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSProbSalud",
+    "version" : "0.1.0",
+    "name" : "VSProbSalud"
+  },
+  {
+    "id" : "VSTipoDoc",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc",
+    "version" : "0.1.0",
+    "name" : "VSTipoDoc"
+  }
+]

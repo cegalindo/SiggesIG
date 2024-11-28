@@ -1,0 +1,71 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSDerivadoPara",
+      "title" : "Códigos asociados a la derivación",
+      "description" : "Codigos asociados para la derivación de paciente, indicando el objetivo",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"
+      ]
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSExamenes",
+      "title" : "Códigos de  Exámenes",
+      "description" : "Códigos exámenes realizados por el paciente",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes"]
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSMArca",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSMarca",
+      "title" : "Códigos de  Marca",
+      "description" : "Marca del paciente",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"]
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrestacion",
+      "title" : "Códigos de prestaciones",
+      "description" : "Codigos para prestaciones",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion"
+      ]
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrevision",
+      "title" : "VS Prevision",
+      "description" : "Previsión del paciente",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"]
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSProbSalud",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSProbSalud",
+      "title" : "Códigos Problemas de Salud",
+      "description" : "Problemas de salud detectados en pacientes",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"]
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSTipoDoc",
+      "title" : "Códigos de tipo de documento",
+      "description" : "Codigos para tipo de documento",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"]
+    }
+  ]
+}

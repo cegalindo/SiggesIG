@@ -1,0 +1,26 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.sigescg.json	7903	-	0	0	0	0	0	0	9	405	0	0	2	0	0	0	0	1	0	0	273	923	0	0	0	1	7	0	1
+fsh-generated/resources/CodeSystem-CSDerivadoPara.json	1314	29	1	0	0	1	0	0	0	43	0	0	0	0	0	0	0	0	0	0	65	12871	0	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-CSExamenes.json	698	35	0	0	0	0	0	0	1	47	0	0	0	0	0	0	0	0	0	0	52	205	0	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-CSMarca.json	818	32	0	0	0	0	0	0	0	28	0	0	0	0	0	0	0	0	0	0	59	212	0	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-CSPrestacion.json	585	50	0	0	0	0	0	0	0	25	0	0	0	0	0	0	0	0	0	0	54	221	0	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-CSPrevision.json	940	40	0	0	0	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	71	274	0	0	0	0	3	0	0
+fsh-generated/resources/CodeSystem-CSProbSalud.json	9145	29	1	0	0	0	0	0	2	45	0	0	1	0	0	0	0	1	0	0	199	275	0	0	0	0	4	0	0
+fsh-generated/resources/CodeSystem-CSTipoDoc.json	911	30	0	0	0	0	0	0	0	28	0	0	0	0	0	0	0	0	0	0	136	181	0	0	0	0	1	0	0
+fsh-generated/resources/Questionnaire-CreacionCaso.json	11006	48	0	0	0	0	0	0	2	143	0	0	0	0	0	0	0	0	0	0	664	328	0	0	0	0	11	0	1
+fsh-generated/resources/Questionnaire-NotiAtenEsp.json	7272	41	1	0	0	0	0	0	1	57	0	0	0	0	0	0	0	0	0	0	431	191	0	0	0	1	21	0	0
+fsh-generated/resources/Questionnaire-ProsDiag.json	6090	73	0	0	0	0	0	0	2	45	0	0	0	0	0	0	0	0	0	0	381	308	0	0	0	0	7	0	0
+fsh-generated/resources/Questionnaire-SolEndoscop.json	6367	87	0	0	0	0	0	0	1	49	0	0	0	0	0	0	0	4	0	0	357	206	0	0	0	0	6	0	0
+fsh-generated/resources/QuestionnaireResponse-Caso1.json	10498	157	0	0	0	0	0	0	1	815	0	0	0	0	0	0	0	0	0	0	454	122	0	0	0	0	0	0	0
+fsh-generated/resources/QuestionnaireResponse-Caso2.json	7088	132	1	0	0	0	0	0	1	9	0	0	0	0	0	0	0	0	0	0	279	74	0	0	0	0	0	0	0
+fsh-generated/resources/QuestionnaireResponse-Caso3.json	5970	13	0	0	0	0	0	0	1	6	0	0	0	0	0	0	0	0	0	0	336	68	0	0	0	0	0	0	1
+fsh-generated/resources/QuestionnaireResponse-Caso4.json	5723	9	1	0	0	0	0	0	3	8	0	0	0	0	0	0	0	1	0	0	317	67	0	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-TipoDoc.json	1528	80	0	0	0	0	0	94	2	30	0	0	0	0	0	0	0	0	0	0	146	1975	0	0	0	0	4	0	0
+fsh-generated/resources/StructureDefinition-datos-sigges-formularios.json	4307	6	0	0	0	0	0	831	0	100	0	0	0	0	0	0	0	2	0	0	529	3109	0	0	0	0	35	0	1
+fsh-generated/resources/ValueSet-VSDerivadoPara.json	490	5	1	0	0	0	0	0	0	618	0	0	0	0	0	0	0	0	0	0	57	22885	0	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-VSExamenes.json	434	17	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	40	216	0	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-VSMArca.json	391	7	1	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	40	236	0	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-VSPrestacion.json	424	4	0	0	0	0	0	0	1	7	0	0	0	0	0	0	0	0	0	0	38	190	0	0	0	0	2	0	0
+fsh-generated/resources/ValueSet-VSPrevision.json	406	5	1	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	37	246	0	0	0	0	2	0	0
+fsh-generated/resources/ValueSet-VSProbSalud.json	440	54	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	40	1769	0	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-VSTipoDoc.json	422	3	1	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	38	533	0	0	0	0	1	0	0

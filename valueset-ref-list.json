@@ -1,0 +1,181 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-answers-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireResponseStatus",
+      "title" : "QuestionnaireResponseStatus",
+      "description" : "Lifecycle status of the questionnaire response.",
+      "systems" : ["http://hl7.org/fhir/questionnaire-answers-status"],
+      "oids" : ["required"],
+      "sources" : ["required"],
+      "uses" : {
+      },
+      "StructureDefinition-datos-sigges-formularios.html" : "Datos de Notificación de Casos Siges"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosComunaCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "VSCodigosComunaCL",
+      "title" : "Códigos de Comunas en Chile",
+      "description" : "Códigos de Comunas para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosProvinciasCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "VSCodigosProvinciasCL",
+      "title" : "Códigos de Provincias en Chile",
+      "description" : "Códigos de Provincias para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosRegionesCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "VSCodigosRegionesCL",
+      "title" : "Códigos de Regiones en Chile",
+      "description" : "Códigos de Regiones para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "VSEspecialidadesCL",
+      "title" : "Códigos de Especialidades",
+      "description" : "Códigos de especialidades médicas descritas según DEIS, la CONACEM y CONACEO",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadOdontologica",
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/EspecialidadesConacemConaceoCS",
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadFarma"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSSexoListadoDeis",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "VSSexoListadoDeis",
+      "title" : "Sexo Listado Deis",
+      "description" : "Sexo Listado Deis",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSDerivadoPara",
+      "title" : "Códigos asociados a la derivación",
+      "description" : "Codigos asociados para la derivación de paciente, indicando el objetivo",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-SolEndoscop.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSExamenes",
+      "title" : "Códigos de  Exámenes",
+      "description" : "Códigos exámenes realizados por el paciente",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes"]
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSMArca",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSMarca",
+      "title" : "Códigos de  Marca",
+      "description" : "Marca del paciente",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"],
+      "uses" : {
+      },
+      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrestacion",
+      "title" : "Códigos de prestaciones",
+      "description" : "Codigos para prestaciones",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
+      "Questionnaire-SolEndoscop.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSPrevision",
+      "title" : "VS Prevision",
+      "description" : "Previsión del paciente",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"],
+      "uses" : {
+      },
+      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSProbSalud",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSProbSalud",
+      "title" : "Códigos Problemas de Salud",
+      "description" : "Problemas de salud detectados en pacientes",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"],
+      "uses" : {
+      },
+      "Questionnaire-ProsDiag.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/ProsDiag|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSTipoDoc",
+      "title" : "Códigos de tipo de documento",
+      "description" : "Codigos para tipo de documento",
+      "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"],
+      "uses" : {
+      },
+      "StructureDefinition-TipoDoc.html" : "Tipos de documento/formulario"
+    }
+  ]
+}

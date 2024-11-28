@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSMarca"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CSMarca</b></p><a name="CSMarca"> </a><a name="hcCSMarca"> </a><a name="CSMarca-es-CL"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">01<a name="CSMarca-01"> </a></td><td>PRAIS</td></tr><tr><td style="white-space:nowrap">02<a name="CSMarca-02"> </a></td><td>ANTUCO</td></tr><tr><td style="white-space:nowrap">03<a name="CSMarca-03"> </a></td><td>DIRIGENTE VECINAL</td></tr><tr><td style="white-space:nowrap">04<a name="CSMarca-04"> </a></td><td>PRI LONCO</td></tr><tr><td style="white-space:nowrap">05<a name="CSMarca-05"> </a></td><td>PRI LEMUN</td></tr></table></div>
+  </text>
+  <url value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"/>
+  <version value="0.1.0"/>
+  <name value="CSMarca"/>
+  <title value="Códigos de Marca"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-28T09:34:47-03:00"/>
+  <publisher value="HL7 Chile"/>
+  <contact>
+    <name value="HL7 Chile"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hl7chile.cl"/>
+    </telecom>
+  </contact>
+  <description value="Codigos de la marca del paciente"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="01"/>
+    <display value="PRAIS"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="ANTUCO"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="DIRIGENTE VECINAL"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="PRI LONCO"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="PRI LEMUN"/>
+  </concept>
+</CodeSystem>

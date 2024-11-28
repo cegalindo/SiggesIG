@@ -1,0 +1,754 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 0, errors = 32, warn = 22, info = 6-->
+<head>
+  <title>sigescg : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for sigescg</h1>
+ <p>Generated Thu Nov 28 09:37:25 CLST 2024, FHIR version 4.0.1 for hl7.fhir.cl.sigescg#0.1.0 (canonical = <a href="https://hl7chile.cl/fhir/ig/sigescg">https://hl7chile.cl/fhir/ig/sigescg</a> (<a href="https://hl7chile.cl/fhir/ig/sigescg/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.7.3, which is out of date. The current version is v1.7.5 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.cl.sigescg, Canonical = https://hl7chile.cl/fhir/ig/sigescg</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Publication Request:</td><td><ul><li><span title="Not Found">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+<li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
+</ul>
+</td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\GI_FHIR\SigesCG\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.cl.sigescg</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://hl7chile.cl/fhir/ig/sigescg</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\GI_FHIR\SigesCG\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">6.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/6.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\GI_FHIR\SigesCG\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.extensions.r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions/5.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\GI_FHIR\SigesCG\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.cl.clcore</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.9.1 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Interim Release">I</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://hl7chile.cl/fhir/ig/clcore</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://hl7chile.cl/fhir/ig/clcore/1.9.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\GI_FHIR\SigesCG\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR4Xu3IsQ0AIAwEsez6+89AqKGGJj7JzVWS+mm3zgcAAMxwDQAAgFcaYAVAgNGLTjgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">6.0.2 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/6.0.2</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Latest Release is 6.1.0</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\GI_FHIR\SigesCG\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.extensions.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions/5.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">see above</td></tr>
+</table><para>Templates: fhir.base.template#current. Tools: 0.3.0</para></div></td></tr>
+ <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
+ <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
+ <tr><td>Terminology Server(s):</td><td><a href="http://tx.fhir.org/r4">http://tx.fhir.org/r4</a> (<a href="qa-txservers.html">details</a>)</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>no Non-HL7 references found</i></td></tr>
+ <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Draft Dependencies:</td><td><ul>
+  <li>
+hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-parameter-code.html">GuideParameterCode</a>
+ (15 uses),     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/organization.html">Organization</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-questionnaire-answers-status.html">QuestionnaireResponseStatus</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/device.html">Device</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4/valueset-questionnaire-answers.html">QuestionnaireAnswerCodes</a>
+ (1 uses)
+  </li>
+  <li>
+hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/StructureDefinition-resource-sort.html">ResourceSortExt</a>
+ (24 uses)
+  </li>
+</ul>
+</td></tr>
+ <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://hl7chile.cl/fhir/ig/sigescg (Problem #1 with package-list.json at https://hl7chile.cl/fhir/ig/sigescg: Not Found)</td></tr>
+ <tr><td>IPA Comparison:</td><td> n/a</td></tr>
+ <tr><td>IPS Comparison:</td><td> n/a</td></tr>
+ <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
+ <tr><td>Summary:</td><td> errors = 32, warn = 22, info = 6, broken links = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSDerivadoPara"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSDerivadoPara</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSExamenes"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSExamenes</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSMarca"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSMarca</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSPrestacion"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSPrestacion</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSPrevision"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSPrevision</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSProbSalud"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSProbSalud</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSTipoDoc"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSTipoDoc</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ImplementationGuide-hl7.fhir.cl.sigescg"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.sigescg</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-CreacionCaso"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-CreacionCaso</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-NotiAtenEsp"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-NotiAtenEsp</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-ProsDiag"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-ProsDiag</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-SolEndoscop"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-SolEndoscop</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso1"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso1</b></a></td><td><b>11</b></td><td><b>6</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso2"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso2</b></a></td><td><b>12</b></td><td><b>4</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso3"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso3</b></a></td><td><b>5</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso4"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso4</b></a></td><td><b>4</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_StructureDefinition-TipoDoc"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\StructureDefinition-TipoDoc</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_StructureDefinition-datos-sigges-formularios"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\StructureDefinition-datos-sigges-formularios</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSDerivadoPara"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSDerivadoPara</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSExamenes"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSExamenes</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSMArca"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSMArca</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSPrestacion"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSPrestacion</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSPrevision"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSPrevision</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSProbSalud"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSProbSalud</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSTipoDoc"><b>C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSTipoDoc</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>2</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>3</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>4</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSDerivadoPara"> </a>
+<h2><a href="CodeSystem-CSDerivadoPara.html">fsh-generated\resources\CodeSystem-CSDerivadoPara.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSExamenes"> </a>
+<h2><a href="CodeSystem-CSExamenes.html">fsh-generated\resources\CodeSystem-CSExamenes.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSMarca"> </a>
+<h2><a href="CodeSystem-CSMarca.html">fsh-generated\resources\CodeSystem-CSMarca.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSPrestacion"> </a>
+<h2><a href="CodeSystem-CSPrestacion.html">fsh-generated\resources\CodeSystem-CSPrestacion.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSPrevision"> </a>
+<h2><a href="CodeSystem-CSPrevision.html">fsh-generated\resources\CodeSystem-CSPrevision.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSProbSalud"> </a>
+<h2><a href="CodeSystem-CSProbSalud.html">fsh-generated\resources\CodeSystem-CSProbSalud.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem&#8203;.concept[83]&#8203;.display (l1&#8203;/c18799)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>el valor no puede empezar o terminar con espacios en blanco 'Atención Integral de Salud en Agresión Sexual Aguda '</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_CodeSystem-CSTipoDoc"> </a>
+<h2><a href="CodeSystem-CSTipoDoc.html">fsh-generated\resources\CodeSystem-CSTipoDoc.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ImplementationGuide-hl7.fhir.cl.sigescg"> </a>
+<h2><a href="index.html">fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.sigescg.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>ImplementationGuide/hl7.fhir.cl.sigescg: ImplementationGuide: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/implementationguide.html">ImplementationGuide</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide (l1/c19309)</b></td><td><b>warning</b></td><td title=""><b>!!La regla ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-CreacionCaso"> </a>
+<h2><a href="Questionnaire-CreacionCaso.html">fsh-generated\resources\Questionnaire-CreacionCaso.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Resource</b></td><td><b>information</b></td><td title=""><b>This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-NotiAtenEsp"> </a>
+<h2><a href="Questionnaire-NotiAtenEsp.html">fsh-generated\resources\Questionnaire-NotiAtenEsp.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Resource</b></td><td><b>information</b></td><td title=""><b>This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-ProsDiag"> </a>
+<h2><a href="Questionnaire-ProsDiag.html">fsh-generated\resources\Questionnaire-ProsDiag.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Resource</b></td><td><b>information</b></td><td title=""><b>This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_Questionnaire-SolEndoscop"> </a>
+<h2><a href="Questionnaire-SolEndoscop.html">fsh-generated\resources\Questionnaire-SolEndoscop.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Resource</b></td><td><b>information</b></td><td title=""><b>This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso1"> </a>
+<h2><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <i>this.</i><a href="StructureDefinition-datos-sigges-formularios.html">Datos de Notificación de Casos Siges</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l12&#8203;/c8)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4<ta>)</td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept) (l12&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_1_CC"><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l12&#8203;/c8)</b></td><td><b>warning</b></td><td title=""><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[5]&#8203;.item[0]&#8203;.answer[0]&#8203;.value&#8203;.ofType(Coding) (l187&#8203;/c20)</b></td><td><b>information</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[2]&#8203;.item[2]&#8203;.answer[0] (l108&#8203;/c20)</b></td><td><b>warning</b></td><td title="QUESTIONNAIRE_QR_ITEM_BADOPTION_CS"><b>The code provided null cannot be validated in the options value set (Códigos de Provincias en Chile) in the questionnaire because the system 131 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[2]&#8203;.item[3]&#8203;.answer[0] (l118&#8203;/c20)</b></td><td><b>warning</b></td><td title="QUESTIONNAIRE_QR_ITEM_BADOPTION_CS"><b>The code provided null cannot be validated in the options value set (Códigos de Regiones en Chile) in the questionnaire because the system 13 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[5]&#8203;.item[0]&#8203;.answer[0] (l187&#8203;/c20)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_BadOption"><b>!!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision::1) no está en el conjunto de valores para las opciones provisto por el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[5] (l182&#8203;/c10)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'acreditacionPac'"><b>No se ha encontrado respuesta para el item requerido 'acreditacionPac'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1] (l362&#8203;/c10)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'estadoCaso' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[1] (l227&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'servicioSaludNotificacion' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[1] (l235&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'establecimientoOrigen' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[1] (l251&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'unidadClinicaDestino' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[1] (l225&#8203;/c10)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'servicioSaludDestino'"><b>No se ha encontrado respuesta para el item requerido 'servicioSaludDestino'</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[2]&#8203;.item[0]&#8203;.answer[0] (l267&#8203;/c20)</b></td><td><b>warning</b></td><td title="QUESTIONNAIRE_QR_ITEM_BADOPTION_CS"><b>The code provided null cannot be validated in the options value set (Códigos de Especialidades) in the questionnaire because the system 01 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[3]&#8203;.item[0]&#8203;.answer[0] (l294&#8203;/c20)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>!!El ValueSet https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDerivadoPara no ha sido encontrado por el validador</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[5] (l343&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'numeroFolio' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[5] (l351&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'numeroCaso' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[5] (l341&#8203;/c10)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'codEstadoCaso'"><b>No se ha encontrado respuesta para el item requerido 'codEstadoCaso'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso2"> </a>
+<h2><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <i>this.</i><a href="StructureDefinition-datos-sigges-formularios.html">Datos de Notificación de Casos Siges</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l12&#8203;/c8)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4<ta>)</td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept) (l12&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_1_CC"><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l12&#8203;/c8)</b></td><td><b>warning</b></td><td title=""><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[2]&#8203;.item[2]&#8203;.answer[0] (l108&#8203;/c20)</b></td><td><b>warning</b></td><td title="QUESTIONNAIRE_QR_ITEM_BADOPTION_CS"><b>The code provided null cannot be validated in the options value set (Códigos de Provincias en Chile) in the questionnaire because the system 131 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[2]&#8203;.item[3]&#8203;.answer[0] (l118&#8203;/c20)</b></td><td><b>warning</b></td><td title="QUESTIONNAIRE_QR_ITEM_BADOPTION_CS"><b>The code provided null cannot be validated in the options value set (Códigos de Regiones en Chile) in the questionnaire because the system 13 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[5] (l184&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'numeroCaso' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[0]&#8203;.item[5] (l182&#8203;/c10)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'caso'"><b>No se ha encontrado respuesta para el item requerido 'caso'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1] (l221&#8203;/c10)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'PrestacionEj' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1] (l263&#8203;/c10)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_Order"><b>Error Estructural: los items están fuera de orden</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[0] (l202&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'nombreOrganizacionOrg' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[0] (l210&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'nombreServicioSaludOrg' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[0] (l200&#8203;/c10)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'nombreEstablecimientoOrg'"><b>No se ha encontrado respuesta para el item requerido 'nombreEstablecimientoOrg'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse.item[1] (l198/c6)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'ejecutorPrestacion'"><b>No se ha encontrado respuesta para el item requerido 'ejecutorPrestacion'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[2] (l244&#8203;/c14)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'fechaInicio' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[2] (l242&#8203;/c10)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'horaInicio'"><b>No se ha encontrado respuesta para el item requerido 'horaInicio'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[1]&#8203;.item[2] (l242&#8203;/c10)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'horaFin'"><b>No se ha encontrado respuesta para el item requerido 'horaFin'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso3"> </a>
+<h2><a href="QuestionnaireResponse-Caso3.html">fsh-generated\resources\QuestionnaireResponse-Caso3.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <i>this.</i><a href="StructureDefinition-datos-sigges-formularios.html">Datos de Notificación de Casos Siges</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l12&#8203;/c8)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4<ta>)</td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept) (l12&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_1_CC"><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l12&#8203;/c8)</b></td><td><b>warning</b></td><td title=""><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse (l86/c6)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'profesionalNotificador' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse (l141/c6)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'SolicitudAtencionPrest' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'profesionalSolicitante'"><b>No se ha encontrado respuesta para el item requerido 'profesionalSolicitante'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'solicitudAtencionPrest'"><b>No se ha encontrado respuesta para el item requerido 'solicitudAtencionPrest'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_QuestionnaireResponse-Caso4"> </a>
+<h2><a href="QuestionnaireResponse-Caso4.html">fsh-generated\resources\QuestionnaireResponse-Caso4.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>QuestionnaireResponse: Validated against <i>this.</i><a href="StructureDefinition-datos-sigges-formularios.html">Datos de Notificación de Casos Siges</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l12&#8203;/c8)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4<ta>)</td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept) (l12&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_1_CC"><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>QuestionnaireResponse&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l12&#8203;/c8)</b></td><td><b>warning</b></td><td title=""><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>QuestionnaireResponse&#8203;.item[2]&#8203;.item[2]&#8203;.item[0]&#8203;.answer[0]&#8203;.value&#8203;.ofType(Coding) (l190&#8203;/c20)</b></td><td><b>information</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse (l86/c6)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_NotFound"><b>El LinkId 'profesionalNotificador' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse (l1/c2)</b></td><td><b>error</b></td><td title="No se ha encontrado respuesta para el item requerido 'profesionalSolicitante'"><b>No se ha encontrado respuesta para el item requerido 'profesionalSolicitante'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>QuestionnaireResponse&#8203;.item[2]&#8203;.item[2]&#8203;.item[0]&#8203;.answer[0] (l190&#8203;/c20)</b></td><td><b>error</b></td><td title="Questionnaire_QR_Item_BadOption"><b>!!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud::27) no está en el conjunto de valores para las opciones provisto por el cuestionario</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_StructureDefinition-TipoDoc"> </a>
+<h2><a href="StructureDefinition-TipoDoc.html">fsh-generated\resources\StructureDefinition-TipoDoc.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_StructureDefinition-datos-sigges-formularios"> </a>
+<h2><a href="StructureDefinition-datos-sigges-formularios.html">fsh-generated\resources\StructureDefinition-datos-sigges-formularios.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi18"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[15]&#8203;.short (l1&#8203;/c46966)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>el valor no puede empezar o terminar con espacios en blanco 'Namespace del valor de identificación. '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[4]&#8203;.short (l1&#8203;/c83161)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>el valor no puede empezar o terminar con espacios en blanco 'Namespace del valor de identificación. '</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSDerivadoPara"> </a>
+<h2><a href="ValueSet-VSDerivadoPara.html">fsh-generated\resources\ValueSet-VSDerivadoPara.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSExamenes"> </a>
+<h2><a href="ValueSet-VSExamenes.html">fsh-generated\resources\ValueSet-VSExamenes.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi20"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSMArca"> </a>
+<h2><a href="ValueSet-VSMArca.html">fsh-generated\resources\ValueSet-VSMArca.json</a> <span id="svi21" class="toggle" onclick="toggle('vi21')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi21')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi21"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSPrestacion"> </a>
+<h2><a href="ValueSet-VSPrestacion.html">fsh-generated\resources\ValueSet-VSPrestacion.json</a> <span id="svi22" class="toggle" onclick="toggle('vi22')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi22')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi22"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSPrevision"> </a>
+<h2><a href="ValueSet-VSPrevision.html">fsh-generated\resources\ValueSet-VSPrevision.json</a> <span id="svi23" class="toggle" onclick="toggle('vi23')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi23')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi23"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSProbSalud"> </a>
+<h2><a href="ValueSet-VSProbSalud.html">fsh-generated\resources\ValueSet-VSProbSalud.json</a> <span id="svi24" class="toggle" onclick="toggle('vi24')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi24')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi24"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__GI_FHIR_SigesCG_fsh-generated_resources_ValueSet-VSTipoDoc"> </a>
+<h2><a href="ValueSet-VSTipoDoc.html">fsh-generated\resources\ValueSet-VSTipoDoc.json</a> <span id="svi25" class="toggle" onclick="toggle('vi25')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi25')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi25"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="QUESTIONNAIRE_QR_ITEM_BADOPTION_CS"> </a>
+<h2>QUESTIONNAIRE_QR_ITEM_BADOPTION_CS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>The code provided null cannot be validated in the options value set (Códigos de Provincias en Chile) in the questionnaire because the system 131 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>The code provided null cannot be validated in the options value set (Códigos de Regiones en Chile) in the questionnaire because the system 13 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>The code provided null cannot be validated in the options value set (Códigos de Especialidades) in the questionnaire because the system 01 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>The code provided null cannot be validated in the options value set (Códigos de Provincias en Chile) in the questionnaire because the system 131 could not be found</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>The code provided null cannot be validated in the options value set (Códigos de Regiones en Chile) in the questionnaire because the system 13 could not be found</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Questionnaire_QR_Item_BadOption"> </a>
+<h2>Questionnaire_QR_Item_BadOption</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>!!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision::1) no está en el conjunto de valores para las opciones provisto por el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso4.html">fsh-generated\resources\QuestionnaireResponse-Caso4.json</a></td><td><b>!!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud::27) no está en el conjunto de valores para las opciones provisto por el cuestionario</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Questionnaire_QR_Item_NotFound"> </a>
+<h2>Questionnaire_QR_Item_NotFound</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>El LinkId 'estadoCaso' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>El LinkId 'servicioSaludNotificacion' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>El LinkId 'establecimientoOrigen' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>El LinkId 'unidadClinicaDestino' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>El LinkId 'numeroFolio' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>El LinkId 'numeroCaso' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>El LinkId 'numeroCaso' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>El LinkId 'PrestacionEj' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>El LinkId 'nombreOrganizacionOrg' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>El LinkId 'nombreServicioSaludOrg' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>El LinkId 'fechaInicio' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso3.html">fsh-generated\resources\QuestionnaireResponse-Caso3.json</a></td><td><b>El LinkId 'profesionalNotificador' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso3.html">fsh-generated\resources\QuestionnaireResponse-Caso3.json</a></td><td><b>El LinkId 'SolicitudAtencionPrest' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso4.html">fsh-generated\resources\QuestionnaireResponse-Caso4.json</a></td><td><b>El LinkId 'profesionalNotificador' no ha sido encontrado en el cuestionario</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Questionnaire_QR_Item_Order"> </a>
+<h2>Questionnaire_QR_Item_Order</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>Error Estructural: los items están fuera de orden</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_NoValid_1_CC"> </a>
+<h2>Terminology_TX_NoValid_1_CC</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso2.html">fsh-generated\resources\QuestionnaireResponse-Caso2.json</a></td><td><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso3.html">fsh-generated\resources\QuestionnaireResponse-Caso3.json</a></td><td><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="QuestionnaireResponse-Caso4.html">fsh-generated\resources\QuestionnaireResponse-Caso4.json</a></td><td><b>Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_ValueSet_NotFound"> </a>
+<h2>Terminology_TX_ValueSet_NotFound</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>!!El ValueSet https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDerivadoPara no ha sido encontrado por el validador</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_String_WS"> </a>
+<h2>Type_Specific_Checks_DT_String_WS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-CSProbSalud.html">fsh-generated\resources\CodeSystem-CSProbSalud.json</a></td><td><b>el valor no puede empezar o terminar con espacios en blanco 'Atención Integral de Salud en Agresión Sexual Aguda '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-datos-sigges-formularios.html">fsh-generated\resources\StructureDefinition-datos-sigges-formularios.json</a></td><td><b>el valor no puede empezar o terminar con espacios en blanco 'Namespace del valor de identificación. '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-datos-sigges-formularios.html">fsh-generated\resources\StructureDefinition-datos-sigges-formularios.json</a></td><td><b>el valor no puede empezar o terminar con espacios en blanco 'Namespace del valor de identificación. '</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="UNKNOWN_CODESYSTEM"> </a>
+<h2>UNKNOWN_CODESYSTEM</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-Caso1.html">fsh-generated\resources\QuestionnaireResponse-Caso1.json</a></td><td><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="QuestionnaireResponse-Caso4.html">fsh-generated\resources\QuestionnaireResponse-Caso4.json</a></td><td><b>A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud' could not be found, so the code cannot be validated</b></td>
+   </tr>
+</table>
+</body>
+</html>

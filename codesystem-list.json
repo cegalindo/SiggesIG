@@ -1,0 +1,60 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSDerivadoPara",
+      "title" : "Códigos asociados a la derivación",
+      "description" : "Codigos asociados para la derivación de paciente, indicando el objetivo"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSExamenes",
+      "title" : "Códigos de Exámenes",
+      "description" : "Codigos para examenes realizados por el paciente"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSMarca",
+      "title" : "Códigos de Marca",
+      "description" : "Codigos de la marca del paciente"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrestacion",
+      "title" : "Códigos de prestaciones",
+      "description" : "Codigos para prestaciones"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrevision",
+      "title" : "CS Prevision",
+      "description" : "Codigos de la previsión del paciente"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSProbSalud",
+      "title" : "Códigos de Problemas de Salud",
+      "description" : "Codigos para problemas de salud de paciente"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSTipoDoc",
+      "title" : "Códigos de tipo de documento",
+      "description" : "Codigos para tipo de documento"
+    }
+  ]
+}

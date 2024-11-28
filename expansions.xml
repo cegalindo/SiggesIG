@@ -1,0 +1,2032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="8c8c5baf-398d-4768-845f-c13f319e3ccf"/>
+  <meta>
+    <lastUpdated value="2024-11-28T09:34:47.305-03:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CSDerivadoPara.html">codesystem Códigos asociados a la derivación v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-1"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-1">1</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Confirmación Diagnóstica</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-2"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-2">2</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Realizar Tratamiento</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-3"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-3">3</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>A Seguimiento</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-4"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-4">4</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Control de Especialidad</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-5"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-5">5</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Otro</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-6"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-6">6</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Seguimiento</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-7"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-7">7</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Tratamiento</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-8"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-8">8</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Otro</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-9"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-9">9</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Diagnostico</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-10"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-10">10</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Rehabilitación</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-11"> </a>  
+                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-11">11</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
+                <td>Rehabilitación</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara"/>
+        <version value="0.1.0"/>
+        <name value="VSDerivadoPara"/>
+        <title value="Códigos asociados a la derivación"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-28T09:34:47-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:4e78bfcf-818f-4298-8e22-5405074493b6"/>
+          <timestamp value="2024-11-28T09:36:00-03:00"/>
+          <total value="11"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="1"/>
+            <display value="Confirmación Diagnóstica"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="2"/>
+            <display value="Realizar Tratamiento"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="3"/>
+            <display value="A Seguimiento"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="4"/>
+            <display value="Control de Especialidad"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="5"/>
+            <display value="Otro"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="6"/>
+            <display value="Seguimiento"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="7"/>
+            <display value="Tratamiento"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="8"/>
+            <display value="Otro"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="9"/>
+            <display value="Diagnostico"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="10"/>
+            <display value="Rehabilitación"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
+            <code value="11"/>
+            <display value="Rehabilitación"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CSExamenes.html">codesystem Códigos de Exámenes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes-01"> </a>  
+                  <a href="CodeSystem-CSExamenes.html#CSExamenes-01">01</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes-02"> </a>  
+                  <a href="CodeSystem-CSExamenes.html#CSExamenes-02">02</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes</td>
+                <td>B</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes-03"> </a>  
+                  <a href="CodeSystem-CSExamenes.html#CSExamenes-03">03</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes</td>
+                <td>C</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes"/>
+        <version value="0.1.0"/>
+        <name value="VSExamenes"/>
+        <title value="Códigos de  Exámenes"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-28T09:34:47-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c79ac109-03eb-40c3-a2c1-97849f3a1c1f"/>
+          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes"/>
+            <code value="01"/>
+            <display value="A"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes"/>
+            <code value="02"/>
+            <display value="B"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes"/>
+            <code value="03"/>
+            <display value="C"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSMArca"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CSMarca.html">codesystem Códigos de Marca v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca-01"> </a>  
+                  <a href="CodeSystem-CSMarca.html#CSMarca-01">01</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca</td>
+                <td>PRAIS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca-02"> </a>  
+                  <a href="CodeSystem-CSMarca.html#CSMarca-02">02</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca</td>
+                <td>ANTUCO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca-03"> </a>  
+                  <a href="CodeSystem-CSMarca.html#CSMarca-03">03</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca</td>
+                <td>DIRIGENTE VECINAL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca-04"> </a>  
+                  <a href="CodeSystem-CSMarca.html#CSMarca-04">04</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca</td>
+                <td>PRI LONCO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca-05"> </a>  
+                  <a href="CodeSystem-CSMarca.html#CSMarca-05">05</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca</td>
+                <td>PRI LEMUN</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSMArca"/>
+        <version value="0.1.0"/>
+        <name value="VSMarca"/>
+        <title value="Códigos de  Marca"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-28T09:34:47-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:87b3b73b-385a-4a09-941c-bda71d6ba913"/>
+          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"/>
+            <code value="01"/>
+            <display value="PRAIS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"/>
+            <code value="02"/>
+            <display value="ANTUCO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"/>
+            <code value="03"/>
+            <display value="DIRIGENTE VECINAL"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"/>
+            <code value="04"/>
+            <display value="PRI LONCO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"/>
+            <code value="05"/>
+            <display value="PRI LEMUN"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CSPrestacion.html">codesystem Códigos de prestaciones v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 1 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion-1"> </a>  
+                  <a href="CodeSystem-CSPrestacion.html#CSPrestacion-1">1</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion</td>
+                <td>Prestacion1</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion"/>
+        <version value="0.1.0"/>
+        <name value="VSPrestacion"/>
+        <title value="Códigos de prestaciones"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-28T09:34:47-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:da1160c5-dea8-4909-92b6-a7ecb68772bb"/>
+          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <total value="1"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion"/>
+            <code value="1"/>
+            <display value="Prestacion1"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrevision"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CSPrevision.html">codesystem CS Prevision v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision-01"> </a>  
+                  <a href="CodeSystem-CSPrevision.html#CSPrevision-01">01</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision</td>
+                <td>FONASA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision-02"> </a>  
+                  <a href="CodeSystem-CSPrevision.html#CSPrevision-02">02</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision</td>
+                <td>ISAPRE</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision-03"> </a>  
+                  <a href="CodeSystem-CSPrevision.html#CSPrevision-03">03</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision</td>
+                <td>CAPREDENA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision-04"> </a>  
+                  <a href="CodeSystem-CSPrevision.html#CSPrevision-04">04</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision</td>
+                <td>DIPRECA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision-05"> </a>  
+                  <a href="CodeSystem-CSPrevision.html#CSPrevision-05">05</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision</td>
+                <td>SISA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision-96"> </a>  
+                  <a href="CodeSystem-CSPrevision.html#CSPrevision-96">96</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision</td>
+                <td>NINGUNA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision-99"> </a>  
+                  <a href="CodeSystem-CSPrevision.html#CSPrevision-99">99</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision</td>
+                <td>DESCONOCIDO</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrevision"/>
+        <version value="0.1.0"/>
+        <name value="VSPrevision"/>
+        <title value="VS Prevision"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-28T09:34:47-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:fddba34b-b72e-40a8-87ff-de0e1eb401ed"/>
+          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"/>
+            <code value="01"/>
+            <display value="FONASA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"/>
+            <code value="02"/>
+            <display value="ISAPRE"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"/>
+            <code value="03"/>
+            <display value="CAPREDENA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"/>
+            <code value="04"/>
+            <display value="DIPRECA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"/>
+            <code value="05"/>
+            <display value="SISA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"/>
+            <code value="96"/>
+            <display value="NINGUNA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"/>
+            <code value="99"/>
+            <display value="DESCONOCIDO"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSProbSalud"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CSProbSalud.html">codesystem Códigos de Problemas de Salud v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 87 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-1"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-1">1</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-2"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-2">2</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ardiopatías Congénitas Operables en Personas Menores de 15 Años</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-3"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-3">3</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ÁNCER CERVICOUTERINO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-4"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-4">4</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-5"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-5">5</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>NFARTO AGUDO DEL MIOCARDIO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-6"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-6">6</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>IABETES MELLITUS TIPO 1</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-7"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-7">7</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>IABETES MELLITUS TIPO 2</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-8"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-8">8</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-9"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-9">9</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ISRAFIAS ESPINALES</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-10"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-10">10</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-11"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-11">11</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO QUIRÚRGICO DE CATARATAS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-12"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-12">12</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-13"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-13">13</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>FISURA LABIOPALATINA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-14"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-14">14</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>CÁNCER EN MENORES DE 15 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-15"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-15">15</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ESQUIZOFRENIA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-16"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-16">16</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-17"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-17">17</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-18"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-18">18</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-19"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-19">19</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-20"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-20">20</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-21"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-21">21</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-22"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-22">22</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-23"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-23">23</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-24"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-24">24</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>PREVENCIÓN DE PARTO PREMATURO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-25"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-25">25</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-26"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-26">26</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-27"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-27">27</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>CÁNCER GÁSTRICO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-28"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-28">28</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-29"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-29">29</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-30"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-30">30</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ESTRABISMO EN MENORES DE 9 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-31"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-31">31</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>RETINOPATÍA DIABÉTICA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-32"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-32">32</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-33"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-33">33</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>HEMOFILIA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-34"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-34">34</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-35"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-35">35</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-36"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-36">36</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Ayudas técnicas para personas de 65 años y más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-37"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-37">37</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Ataque Cerebrovascular Isquémico  en personas de 15 años y más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-38"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-38">38</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-39"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-39">39</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-40"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-40">40</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-41"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-41">41</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-42"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-42">42</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-43"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-43">43</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-44"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-44">44</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-45"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-45">45</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-47"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-47">47</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-48"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-48">48</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>POLITRAUMATIZADO GRAVE</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-49"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-49">49</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-50"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-50">50</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRAUMA OCULAR GRAVE</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-51"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-51">51</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>FIBROSIS QUÍSTICA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-52"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-52">52</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ARTRITIS REUMATOIDEA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-53"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-53">53</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-54"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-54">54</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ANALGESIA DEL PARTO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-55"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-55">55</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>GRAN QUEMADO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-56"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-56">56</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-57"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-57">57</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>RETINOPATÍA DEL PREMATURO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-58"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-58">58</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>DISPLASIA BRONCOPULMONAR DEL PREMATURO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-59"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-59">59</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-60"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-60">60</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-61"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-61">61</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-62"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-62">62</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ENFERMEDAD DE PARKINSON</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-63"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-63">63</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ARTRITIS IDIOPÁTICA JUVENIL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-64"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-64">64</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-65"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-65">65</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>DISPLASIA LUXANTE DE CADERAS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-66"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-66">66</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>SALUD ORAL INTEGRAL DE LA EMBARAZADA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-67"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-67">67</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-68"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-68">68</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>HEPATITIS B</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-69"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-69">69</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Hepatitis Crónica por Virus Hepatitis C</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-78"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-78">78</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>LUPUS ERITEMATOSO SISTÉMICO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-75"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-75">75</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Trastorno Bipolar 15 Años y Más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-72"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-72">72</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Cáncer Vesical 15 Años y Más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-80"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-80">80</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-73"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-73">73</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Osteosarcoma 15 Años y Más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-71"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-71">71</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Cáncer de Ovario Epitelial</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-76"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-76">76</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Hipotiroidismo en Personas de 15 Años y Más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-70"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-70">70</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Cáncer Colorectal 15 Años y Más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-74"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-74">74</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-79"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-79">79</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-77"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-77">77</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-46"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-46">46</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Urgencia Odontológica Ambulatoria</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-85"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-85">85</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-81"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-81">81</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Cáncer de Pulmón en Personas de 15 Años y Más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-82"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-82">82</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Cáncer de Tiroides en personas de 15 años y más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-86"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-86">86</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Atención Integral de Salud en Agresión Sexual Aguda </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-83"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-83">83</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Cáncer Renal en personas de 15 años y más</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-84"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-84">84</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud-87"> </a>  
+                  <a href="CodeSystem-CSProbSalud.html#CSProbSalud-87">87</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
+                <td>Rehabilitación SARS COV-2</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSProbSalud"/>
+        <version value="0.1.0"/>
+        <name value="VSProbSalud"/>
+        <title value="Códigos Problemas de Salud"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-28T09:34:47-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:68a5147b-1fcc-4f2b-9f30-f5d279db1944"/>
+          <timestamp value="2024-11-28T09:36:02-03:00"/>
+          <total value="87"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="1"/>
+            <display value="NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="2"/>
+            <display value="ardiopatías Congénitas Operables en Personas Menores de 15 Años"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="3"/>
+            <display value="ÁNCER CERVICOUTERINO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="4"/>
+            <display value="LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="5"/>
+            <display value="NFARTO AGUDO DEL MIOCARDIO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="6"/>
+            <display value="IABETES MELLITUS TIPO 1"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="7"/>
+            <display value="IABETES MELLITUS TIPO 2"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="8"/>
+            <display value="ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="9"/>
+            <display value="ISRAFIAS ESPINALES"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="10"/>
+            <display value="TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="11"/>
+            <display value="TRATAMIENTO QUIRÚRGICO DE CATARATAS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="12"/>
+            <display value="ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="13"/>
+            <display value="FISURA LABIOPALATINA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="14"/>
+            <display value="CÁNCER EN MENORES DE 15 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="15"/>
+            <display value="ESQUIZOFRENIA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="16"/>
+            <display value="CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="17"/>
+            <display value="LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="18"/>
+            <display value="SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="19"/>
+            <display value="INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="20"/>
+            <display value="NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="21"/>
+            <display value="HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="22"/>
+            <display value="EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="23"/>
+            <display value="SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="24"/>
+            <display value="PREVENCIÓN DE PARTO PREMATURO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="25"/>
+            <display value="TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO."/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="26"/>
+            <display value="COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="27"/>
+            <display value="CÁNCER GÁSTRICO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="28"/>
+            <display value="CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="29"/>
+            <display value="VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="30"/>
+            <display value="ESTRABISMO EN MENORES DE 9 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="31"/>
+            <display value="RETINOPATÍA DIABÉTICA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="32"/>
+            <display value="DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO."/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="33"/>
+            <display value="HEMOFILIA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="34"/>
+            <display value="DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="35"/>
+            <display value="TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="36"/>
+            <display value="Ayudas técnicas para personas de 65 años y más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="37"/>
+            <display value="Ataque Cerebrovascular Isquémico  en personas de 15 años y más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="38"/>
+            <display value="ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="39"/>
+            <display value="ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="40"/>
+            <display value="SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="41"/>
+            <display value="TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="42"/>
+            <display value="HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="43"/>
+            <display value="TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="44"/>
+            <display value="TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="45"/>
+            <display value="LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="47"/>
+            <display value="SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="48"/>
+            <display value="POLITRAUMATIZADO GRAVE"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="49"/>
+            <display value="TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="50"/>
+            <display value="TRAUMA OCULAR GRAVE"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="51"/>
+            <display value="FIBROSIS QUÍSTICA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="52"/>
+            <display value="ARTRITIS REUMATOIDEA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="53"/>
+            <display value="CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="54"/>
+            <display value="ANALGESIA DEL PARTO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="55"/>
+            <display value="GRAN QUEMADO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="56"/>
+            <display value="HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="57"/>
+            <display value="RETINOPATÍA DEL PREMATURO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="58"/>
+            <display value="DISPLASIA BRONCOPULMONAR DEL PREMATURO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="59"/>
+            <display value="HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="60"/>
+            <display value="EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="61"/>
+            <display value="ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="62"/>
+            <display value="ENFERMEDAD DE PARKINSON"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="63"/>
+            <display value="ARTRITIS IDIOPÁTICA JUVENIL"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="64"/>
+            <display value="PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="65"/>
+            <display value="DISPLASIA LUXANTE DE CADERAS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="66"/>
+            <display value="SALUD ORAL INTEGRAL DE LA EMBARAZADA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="67"/>
+            <display value="ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="68"/>
+            <display value="HEPATITIS B"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="69"/>
+            <display value="Hepatitis Crónica por Virus Hepatitis C"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="78"/>
+            <display value="LUPUS ERITEMATOSO SISTÉMICO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="75"/>
+            <display value="Trastorno Bipolar 15 Años y Más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="72"/>
+            <display value="Cáncer Vesical 15 Años y Más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="80"/>
+            <display value="TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="73"/>
+            <display value="Osteosarcoma 15 Años y Más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="71"/>
+            <display value="Cáncer de Ovario Epitelial"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="76"/>
+            <display value="Hipotiroidismo en Personas de 15 Años y Más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="70"/>
+            <display value="Cáncer Colorectal 15 Años y Más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="74"/>
+            <display value="TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="79"/>
+            <display value="TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="77"/>
+            <display value="Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="46"/>
+            <display value="Urgencia Odontológica Ambulatoria"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="85"/>
+            <display value="ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="81"/>
+            <display value="Cáncer de Pulmón en Personas de 15 Años y Más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="82"/>
+            <display value="Cáncer de Tiroides en personas de 15 años y más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="86"/>
+            <display value="Atención Integral de Salud en Agresión Sexual Aguda "/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="83"/>
+            <display value="Cáncer Renal en personas de 15 años y más"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="84"/>
+            <display value="MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
+            <code value="87"/>
+            <display value="Rehabilitación SARS COV-2"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CSTipoDoc.html">codesystem Códigos de tipo de documento v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc-1"> </a>  
+                  <a href="CodeSystem-CSTipoDoc.html#CSTipoDoc-1">1</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</td>
+                <td>Solicitud de interconsulta	SIC</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc-2"> </a>  
+                  <a href="CodeSystem-CSTipoDoc.html#CSTipoDoc-2">2</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</td>
+                <td>Informe Proceso Diagnostico IPD</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc-3"> </a>  
+                  <a href="CodeSystem-CSTipoDoc.html#CSTipoDoc-3">3</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</td>
+                <td>Orden de Atención OA</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc-10"> </a>  
+                  <a href="CodeSystem-CSTipoDoc.html#CSTipoDoc-10">10</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</td>
+                <td>Prestacion Otorgada	PO</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc-15"> </a>  
+                  <a href="CodeSystem-CSTipoDoc.html#CSTipoDoc-15">15</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</td>
+                <td>Programa Especial PE</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc"/>
+        <version value="0.1.0"/>
+        <name value="VSTipoDoc"/>
+        <title value="Códigos de tipo de documento"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-11-28T09:34:47-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:6c9ebea2-289b-468f-b567-016043da7623"/>
+          <timestamp value="2024-11-28T09:36:03-03:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>
+            <code value="1"/>
+            <display value="Solicitud de interconsulta&#x9;SIC"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>
+            <code value="2"/>
+            <display value="Informe Proceso Diagnostico IPD"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>
+            <code value="3"/>
+            <display value="Orden de Atención OA"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>
+            <code value="10"/>
+            <display value="Prestacion Otorgada&#x9;PO"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>
+            <code value="15"/>
+            <display value="Programa Especial PE"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

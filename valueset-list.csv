@@ -1,0 +1,8 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara,0.1.0,active,,VSDerivadoPara,Códigos asociados a la derivación,"Codigos asociados para la derivación de paciente, indicando el objetivo",,"Internal"
+https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes,0.1.0,active,,VSExamenes,Códigos de  Exámenes,"Códigos exámenes realizados por el paciente",,"Internal"
+https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSMArca,0.1.0,active,,VSMarca,Códigos de  Marca,"Marca del paciente",,"Internal"
+https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion,0.1.0,active,,VSPrestacion,Códigos de prestaciones,"Codigos para prestaciones",,"Internal"
+https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrevision,0.1.0,active,,VSPrevision,VS Prevision,"Previsión del paciente",,"Internal"
+https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSProbSalud,0.1.0,active,,VSProbSalud,Códigos Problemas de Salud,"Problemas de salud detectados en pacientes",,"Internal"
+https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc,0.1.0,active,,VSTipoDoc,Códigos de tipo de documento,"Codigos para tipo de documento",,"Internal"

@@ -1,0 +1,382 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSProbSalud",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem CSProbSalud</b></p><a name=\"CSProbSalud\"> </a><a name=\"hcCSProbSalud\"> </a><a name=\"CSProbSalud-es-CL\"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSProbSalud-1\"> </a></td><td>NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSProbSalud-2\"> </a></td><td>ardiopatías Congénitas Operables en Personas Menores de 15 Años</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSProbSalud-3\"> </a></td><td>ÁNCER CERVICOUTERINO</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSProbSalud-4\"> </a></td><td>LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSProbSalud-5\"> </a></td><td>NFARTO AGUDO DEL MIOCARDIO</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSProbSalud-6\"> </a></td><td>IABETES MELLITUS TIPO 1</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSProbSalud-7\"> </a></td><td>IABETES MELLITUS TIPO 2</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSProbSalud-8\"> </a></td><td>ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSProbSalud-9\"> </a></td><td>ISRAFIAS ESPINALES</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSProbSalud-10\"> </a></td><td>TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CSProbSalud-11\"> </a></td><td>TRATAMIENTO QUIRÚRGICO DE CATARATAS</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"CSProbSalud-12\"> </a></td><td>ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"CSProbSalud-13\"> </a></td><td>FISURA LABIOPALATINA</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"CSProbSalud-14\"> </a></td><td>CÁNCER EN MENORES DE 15 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"CSProbSalud-15\"> </a></td><td>ESQUIZOFRENIA</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"CSProbSalud-16\"> </a></td><td>CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"CSProbSalud-17\"> </a></td><td>LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"CSProbSalud-18\"> </a></td><td>SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"CSProbSalud-19\"> </a></td><td>INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"CSProbSalud-20\"> </a></td><td>NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"CSProbSalud-21\"> </a></td><td>HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"CSProbSalud-22\"> </a></td><td>EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"CSProbSalud-23\"> </a></td><td>SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"CSProbSalud-24\"> </a></td><td>PREVENCIÓN DE PARTO PREMATURO</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"CSProbSalud-25\"> </a></td><td>TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO.</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"CSProbSalud-26\"> </a></td><td>COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"CSProbSalud-27\"> </a></td><td>CÁNCER GÁSTRICO</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"CSProbSalud-28\"> </a></td><td>CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"CSProbSalud-29\"> </a></td><td>VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"CSProbSalud-30\"> </a></td><td>ESTRABISMO EN MENORES DE 9 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"CSProbSalud-31\"> </a></td><td>RETINOPATÍA DIABÉTICA</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"CSProbSalud-32\"> </a></td><td>DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO.</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"CSProbSalud-33\"> </a></td><td>HEMOFILIA</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"CSProbSalud-34\"> </a></td><td>DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"CSProbSalud-35\"> </a></td><td>TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"CSProbSalud-36\"> </a></td><td>Ayudas técnicas para personas de 65 años y más</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"CSProbSalud-37\"> </a></td><td>Ataque Cerebrovascular Isquémico  en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"CSProbSalud-38\"> </a></td><td>ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"CSProbSalud-39\"> </a></td><td>ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"CSProbSalud-40\"> </a></td><td>SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"CSProbSalud-41\"> </a></td><td>TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"CSProbSalud-42\"> </a></td><td>HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"CSProbSalud-43\"> </a></td><td>TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"CSProbSalud-44\"> </a></td><td>TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"CSProbSalud-45\"> </a></td><td>LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"CSProbSalud-47\"> </a></td><td>SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"CSProbSalud-48\"> </a></td><td>POLITRAUMATIZADO GRAVE</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"CSProbSalud-49\"> </a></td><td>TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"CSProbSalud-50\"> </a></td><td>TRAUMA OCULAR GRAVE</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"CSProbSalud-51\"> </a></td><td>FIBROSIS QUÍSTICA</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"CSProbSalud-52\"> </a></td><td>ARTRITIS REUMATOIDEA</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"CSProbSalud-53\"> </a></td><td>CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"CSProbSalud-54\"> </a></td><td>ANALGESIA DEL PARTO</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"CSProbSalud-55\"> </a></td><td>GRAN QUEMADO</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"CSProbSalud-56\"> </a></td><td>HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"CSProbSalud-57\"> </a></td><td>RETINOPATÍA DEL PREMATURO</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"CSProbSalud-58\"> </a></td><td>DISPLASIA BRONCOPULMONAR DEL PREMATURO</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"CSProbSalud-59\"> </a></td><td>HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"CSProbSalud-60\"> </a></td><td>EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"CSProbSalud-61\"> </a></td><td>ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"CSProbSalud-62\"> </a></td><td>ENFERMEDAD DE PARKINSON</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"CSProbSalud-63\"> </a></td><td>ARTRITIS IDIOPÁTICA JUVENIL</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"CSProbSalud-64\"> </a></td><td>PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"CSProbSalud-65\"> </a></td><td>DISPLASIA LUXANTE DE CADERAS</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"CSProbSalud-66\"> </a></td><td>SALUD ORAL INTEGRAL DE LA EMBARAZADA</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"CSProbSalud-67\"> </a></td><td>ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"CSProbSalud-68\"> </a></td><td>HEPATITIS B</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"CSProbSalud-69\"> </a></td><td>Hepatitis Crónica por Virus Hepatitis C</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"CSProbSalud-78\"> </a></td><td>LUPUS ERITEMATOSO SISTÉMICO</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"CSProbSalud-75\"> </a></td><td>Trastorno Bipolar 15 Años y Más</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"CSProbSalud-72\"> </a></td><td>Cáncer Vesical 15 Años y Más</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"CSProbSalud-80\"> </a></td><td>TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"CSProbSalud-73\"> </a></td><td>Osteosarcoma 15 Años y Más</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"CSProbSalud-71\"> </a></td><td>Cáncer de Ovario Epitelial</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"CSProbSalud-76\"> </a></td><td>Hipotiroidismo en Personas de 15 Años y Más</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"CSProbSalud-70\"> </a></td><td>Cáncer Colorectal 15 Años y Más</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"CSProbSalud-74\"> </a></td><td>TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"CSProbSalud-79\"> </a></td><td>TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"CSProbSalud-77\"> </a></td><td>Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"CSProbSalud-46\"> </a></td><td>Urgencia Odontológica Ambulatoria</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"CSProbSalud-85\"> </a></td><td>ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"CSProbSalud-81\"> </a></td><td>Cáncer de Pulmón en Personas de 15 Años y Más</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"CSProbSalud-82\"> </a></td><td>Cáncer de Tiroides en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"CSProbSalud-86\"> </a></td><td>Atención Integral de Salud en Agresión Sexual Aguda </td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"CSProbSalud-83\"> </a></td><td>Cáncer Renal en personas de 15 años y más</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"CSProbSalud-84\"> </a></td><td>MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"CSProbSalud-87\"> </a></td><td>Rehabilitación SARS COV-2</td></tr></table></div>"
+  },
+  "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud",
+  "version" : "0.1.0",
+  "name" : "CSProbSalud",
+  "title" : "Códigos de Problemas de Salud",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-28T09:34:47-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl"
+    }]
+  }],
+  "description" : "Codigos para problemas de salud de paciente",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 87,
+  "concept" : [{
+    "code" : "1",
+    "display" : "NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5"
+  },
+  {
+    "code" : "2",
+    "display" : "ardiopatías Congénitas Operables en Personas Menores de 15 Años"
+  },
+  {
+    "code" : "3",
+    "display" : "ÁNCER CERVICOUTERINO"
+  },
+  {
+    "code" : "4",
+    "display" : "LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS"
+  },
+  {
+    "code" : "5",
+    "display" : "NFARTO AGUDO DEL MIOCARDIO"
+  },
+  {
+    "code" : "6",
+    "display" : "IABETES MELLITUS TIPO 1"
+  },
+  {
+    "code" : "7",
+    "display" : "IABETES MELLITUS TIPO 2"
+  },
+  {
+    "code" : "8",
+    "display" : "ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "9",
+    "display" : "ISRAFIAS ESPINALES"
+  },
+  {
+    "code" : "10",
+    "display" : "TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS"
+  },
+  {
+    "code" : "11",
+    "display" : "TRATAMIENTO QUIRÚRGICO DE CATARATAS"
+  },
+  {
+    "code" : "12",
+    "display" : "ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA"
+  },
+  {
+    "code" : "13",
+    "display" : "FISURA LABIOPALATINA"
+  },
+  {
+    "code" : "14",
+    "display" : "CÁNCER EN MENORES DE 15 AÑOS"
+  },
+  {
+    "code" : "15",
+    "display" : "ESQUIZOFRENIA"
+  },
+  {
+    "code" : "16",
+    "display" : "CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "17",
+    "display" : "LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "18",
+    "display" : "SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA"
+  },
+  {
+    "code" : "19",
+    "display" : "INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS"
+  },
+  {
+    "code" : "20",
+    "display" : "NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS"
+  },
+  {
+    "code" : "21",
+    "display" : "HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "22",
+    "display" : "EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS"
+  },
+  {
+    "code" : "23",
+    "display" : "SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS"
+  },
+  {
+    "code" : "24",
+    "display" : "PREVENCIÓN DE PARTO PREMATURO"
+  },
+  {
+    "code" : "25",
+    "display" : "TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO."
+  },
+  {
+    "code" : "26",
+    "display" : "COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS"
+  },
+  {
+    "code" : "27",
+    "display" : "CÁNCER GÁSTRICO"
+  },
+  {
+    "code" : "28",
+    "display" : "CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "29",
+    "display" : "VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS"
+  },
+  {
+    "code" : "30",
+    "display" : "ESTRABISMO EN MENORES DE 9 AÑOS"
+  },
+  {
+    "code" : "31",
+    "display" : "RETINOPATÍA DIABÉTICA"
+  },
+  {
+    "code" : "32",
+    "display" : "DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO."
+  },
+  {
+    "code" : "33",
+    "display" : "HEMOFILIA"
+  },
+  {
+    "code" : "34",
+    "display" : "DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "35",
+    "display" : "TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS"
+  },
+  {
+    "code" : "36",
+    "display" : "Ayudas técnicas para personas de 65 años y más"
+  },
+  {
+    "code" : "37",
+    "display" : "Ataque Cerebrovascular Isquémico  en personas de 15 años y más"
+  },
+  {
+    "code" : "38",
+    "display" : "ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO"
+  },
+  {
+    "code" : "39",
+    "display" : "ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS"
+  },
+  {
+    "code" : "40",
+    "display" : "SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO"
+  },
+  {
+    "code" : "41",
+    "display" : "TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA"
+  },
+  {
+    "code" : "42",
+    "display" : "HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES"
+  },
+  {
+    "code" : "43",
+    "display" : "TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS"
+  },
+  {
+    "code" : "44",
+    "display" : "TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR"
+  },
+  {
+    "code" : "45",
+    "display" : "LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "47",
+    "display" : "SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS"
+  },
+  {
+    "code" : "48",
+    "display" : "POLITRAUMATIZADO GRAVE"
+  },
+  {
+    "code" : "49",
+    "display" : "TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE"
+  },
+  {
+    "code" : "50",
+    "display" : "TRAUMA OCULAR GRAVE"
+  },
+  {
+    "code" : "51",
+    "display" : "FIBROSIS QUÍSTICA"
+  },
+  {
+    "code" : "52",
+    "display" : "ARTRITIS REUMATOIDEA"
+  },
+  {
+    "code" : "53",
+    "display" : "CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS"
+  },
+  {
+    "code" : "54",
+    "display" : "ANALGESIA DEL PARTO"
+  },
+  {
+    "code" : "55",
+    "display" : "GRAN QUEMADO"
+  },
+  {
+    "code" : "56",
+    "display" : "HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO"
+  },
+  {
+    "code" : "57",
+    "display" : "RETINOPATÍA DEL PREMATURO"
+  },
+  {
+    "code" : "58",
+    "display" : "DISPLASIA BRONCOPULMONAR DEL PREMATURO"
+  },
+  {
+    "code" : "59",
+    "display" : "HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO"
+  },
+  {
+    "code" : "60",
+    "display" : "EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "61",
+    "display" : "ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y"
+  },
+  {
+    "code" : "62",
+    "display" : "ENFERMEDAD DE PARKINSON"
+  },
+  {
+    "code" : "63",
+    "display" : "ARTRITIS IDIOPÁTICA JUVENIL"
+  },
+  {
+    "code" : "64",
+    "display" : "PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL"
+  },
+  {
+    "code" : "65",
+    "display" : "DISPLASIA LUXANTE DE CADERAS"
+  },
+  {
+    "code" : "66",
+    "display" : "SALUD ORAL INTEGRAL DE LA EMBARAZADA"
+  },
+  {
+    "code" : "67",
+    "display" : "ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE"
+  },
+  {
+    "code" : "68",
+    "display" : "HEPATITIS B"
+  },
+  {
+    "code" : "69",
+    "display" : "Hepatitis Crónica por Virus Hepatitis C"
+  },
+  {
+    "code" : "78",
+    "display" : "LUPUS ERITEMATOSO SISTÉMICO"
+  },
+  {
+    "code" : "75",
+    "display" : "Trastorno Bipolar 15 Años y Más"
+  },
+  {
+    "code" : "72",
+    "display" : "Cáncer Vesical 15 Años y Más"
+  },
+  {
+    "code" : "80",
+    "display" : "TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI"
+  },
+  {
+    "code" : "73",
+    "display" : "Osteosarcoma 15 Años y Más"
+  },
+  {
+    "code" : "71",
+    "display" : "Cáncer de Ovario Epitelial"
+  },
+  {
+    "code" : "76",
+    "display" : "Hipotiroidismo en Personas de 15 Años y Más"
+  },
+  {
+    "code" : "70",
+    "display" : "Cáncer Colorectal 15 Años y Más"
+  },
+  {
+    "code" : "74",
+    "display" : "TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS"
+  },
+  {
+    "code" : "79",
+    "display" : "TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS"
+  },
+  {
+    "code" : "77",
+    "display" : "Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años"
+  },
+  {
+    "code" : "46",
+    "display" : "Urgencia Odontológica Ambulatoria"
+  },
+  {
+    "code" : "85",
+    "display" : "ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS"
+  },
+  {
+    "code" : "81",
+    "display" : "Cáncer de Pulmón en Personas de 15 Años y Más"
+  },
+  {
+    "code" : "82",
+    "display" : "Cáncer de Tiroides en personas de 15 años y más"
+  },
+  {
+    "code" : "86",
+    "display" : "Atención Integral de Salud en Agresión Sexual Aguda "
+  },
+  {
+    "code" : "83",
+    "display" : "Cáncer Renal en personas de 15 años y más"
+  },
+  {
+    "code" : "84",
+    "display" : "MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS"
+  },
+  {
+    "code" : "87",
+    "display" : "Rehabilitación SARS COV-2"
+  }]
+}

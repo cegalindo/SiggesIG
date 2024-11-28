@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSMarca",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem CSMarca</b></p><a name=\"CSMarca\"> </a><a name=\"hcCSMarca\"> </a><a name=\"CSMarca-es-CL\"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"CSMarca-01\"> </a></td><td>PRAIS</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"CSMarca-02\"> </a></td><td>ANTUCO</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"CSMarca-03\"> </a></td><td>DIRIGENTE VECINAL</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"CSMarca-04\"> </a></td><td>PRI LONCO</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"CSMarca-05\"> </a></td><td>PRI LEMUN</td></tr></table></div>"
+  },
+  "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca",
+  "version" : "0.1.0",
+  "name" : "CSMarca",
+  "title" : "Códigos de Marca",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-28T09:34:47-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl"
+    }]
+  }],
+  "description" : "Codigos de la marca del paciente",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "01",
+    "display" : "PRAIS"
+  },
+  {
+    "code" : "02",
+    "display" : "ANTUCO"
+  },
+  {
+    "code" : "03",
+    "display" : "DIRIGENTE VECINAL"
+  },
+  {
+    "code" : "04",
+    "display" : "PRI LONCO"
+  },
+  {
+    "code" : "05",
+    "display" : "PRI LEMUN"
+  }]
+}

@@ -1,0 +1,181 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/questionnaire-answers-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireResponseStatus",
+      "title" : "QuestionnaireResponseStatus",
+      "description" : "Lifecycle status of the questionnaire response.",
+      "oids" : ["2.16.840.1.113883.4.642.4.448"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-questionnaire-answers-status.html" : "QuestionnaireResponseStatus"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "CSCodComunasCL",
+      "title" : "Códigos de Comunas en Chile",
+      "description" : "Códigos de Comunas para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSCodigosComunaCL.html" : "Códigos de Comunas en Chile"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "CSCodProvinciasCL",
+      "title" : "Códigos de Provincias en Chile",
+      "description" : "Códigos de Provincias para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSCodigosProvinciasCL.html" : "Códigos de Provincias en Chile"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "CSCodRegionCL",
+      "title" : "Códigos de Regiones en Chile",
+      "description" : "Códigos de Regiones para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSCodigosRegionesCL.html" : "Códigos de Regiones en Chile"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadFarma",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "CSEspecialidadFarma",
+      "title" : "Especialidad Farmacia",
+      "description" : "Especialidad de Farmacia",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSEspecialidadesCL.html" : "Códigos de Especialidades"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadOdontologica",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "CSEspecialidadOdontologica",
+      "title" : "Especialidad Odontologica",
+      "description" : "Especialidad de Odontologica",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSEspecialidadesCL.html" : "Códigos de Especialidades"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "CSEspecialidadesDeisCL",
+      "title" : "Códigos de Especialidades",
+      "description" : "Códigos de especialidades médicas descritas según DEIS",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSEspecialidadesCL.html" : "Códigos de Especialidades"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "CSSexoListadoDeis",
+      "title" : "Sexo Listado Deis",
+      "description" : "Sexo Listado Deis",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSSexoListadoDeis.html" : "Sexo Listado Deis"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/EspecialidadesConacemConaceoCS",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "EspecialidadesConacemConaceoCS",
+      "title" : "Códigos de Especialidades de CONACEM y CONACEO",
+      "description" : "Códigos a usar para las Especialidades provenientes de La Corporación Nacional Autónoma de Certificación de Especialidades Médicas (CONACEM) y de La Corporación Nacional Autónoma de Certificación de Especialidades Odontológicas (CONACEO) de Chile",
+      "uses" : {
+      },
+      "https://hl7chile.cl/fhir/ig/clcore/1.9.1/ValueSet-VSEspecialidadesCL.html" : "Códigos de Especialidades"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSDerivadoPara",
+      "title" : "Códigos asociados a la derivación",
+      "description" : "Codigos asociados para la derivación de paciente, indicando el objetivo",
+      "uses" : {
+      },
+      "ValueSet-VSDerivadoPara.html" : "Códigos asociados a la derivación"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSExamenes",
+      "title" : "Códigos de Exámenes",
+      "description" : "Codigos para examenes realizados por el paciente",
+      "uses" : {
+      },
+      "ValueSet-VSExamenes.html" : "Códigos de  Exámenes"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSMarca",
+      "title" : "Códigos de Marca",
+      "description" : "Codigos de la marca del paciente",
+      "uses" : {
+      },
+      "ValueSet-VSMArca.html" : "Códigos de  Marca"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrestacion",
+      "title" : "Códigos de prestaciones",
+      "description" : "Codigos para prestaciones",
+      "uses" : {
+      },
+      "ValueSet-VSPrestacion.html" : "Códigos de prestaciones"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSPrevision",
+      "title" : "CS Prevision",
+      "description" : "Codigos de la previsión del paciente",
+      "uses" : {
+      },
+      "ValueSet-VSPrevision.html" : "VS Prevision"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSProbSalud",
+      "title" : "Códigos de Problemas de Salud",
+      "description" : "Codigos para problemas de salud de paciente",
+      "uses" : {
+      },
+      "ValueSet-VSProbSalud.html" : "Códigos Problemas de Salud"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSTipoDoc",
+      "title" : "Códigos de tipo de documento",
+      "description" : "Codigos para tipo de documento",
+      "uses" : {
+      },
+      "ValueSet-VSTipoDoc.html" : "Códigos de tipo de documento"
+    }
+  ]
+}

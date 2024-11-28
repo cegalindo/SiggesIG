@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSTipoDoc",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet VSTipoDoc</b></p><a name=\"VSTipoDoc\"> </a><a name=\"hcVSTipoDoc\"> </a><a name=\"VSTipoDoc-es-CL\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-CSTipoDoc.html\"><code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</code></a></li></ul></div>"
+  },
+  "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc",
+  "version" : "0.1.0",
+  "name" : "VSTipoDoc",
+  "title" : "Códigos de tipo de documento",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-28T09:34:47-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl"
+    }]
+  }],
+  "description" : "Codigos para tipo de documento",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"
+    }]
+  }
+}

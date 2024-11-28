@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSExamenes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet VSExamenes</b></p><a name="VSExamenes"> </a><a name="hcVSExamenes"> </a><a name="VSExamenes-es-CL"> </a><ul><li>Include all codes defined in <a href="CodeSystem-CSExamenes.html"><code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes</code></a></li></ul></div>
+  </text>
+  <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes"/>
+  <version value="0.1.0"/>
+  <name value="VSExamenes"/>
+  <title value="Códigos de  Exámenes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-28T09:34:47-03:00"/>
+  <publisher value="HL7 Chile"/>
+  <contact>
+    <name value="HL7 Chile"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hl7chile.cl"/>
+    </telecom>
+  </contact>
+  <description value="Códigos exámenes realizados por el paciente"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes"/>
+    </include>
+  </compose>
+</ValueSet>
