@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSOpcionesCierre",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem CSOpcionesCierre</b></p><a name=\"CSOpcionesCierre\"> </a><a name=\"hcCSOpcionesCierre\"> </a><a name=\"CSOpcionesCierre-es-CL\"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSOpcionesCierre-1\"> </a></td><td>Cierra Caso</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSOpcionesCierre-2\"> </a></td><td>Excepción Garantía</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSOpcionesCierre-3\"> </a></td><td>Cierre Garantía Oportunidad</td></tr></table></div>"
+  },
+  "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre",
+  "version" : "0.1.0",
+  "name" : "CSOpcionesCierre",
+  "title" : "Códigos opciones para Cierre o Extensión",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-01-31T15:38:22-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl"
+    }]
+  }],
+  "description" : "Codigos asociados para el cierre o la extención de garantía",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Cierra Caso"
+  },
+  {
+    "code" : "2",
+    "display" : "Excepción Garantía"
+  },
+  {
+    "code" : "3",
+    "display" : "Cierre Garantía Oportunidad"
+  }]
+}

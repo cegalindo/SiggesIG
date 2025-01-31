@@ -21,6 +21,13 @@
     "name" : "CSMarca"
   },
   {
+    "id" : "CSOpcionesCierre",
+    "type" : "CodeSystem",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre",
+    "version" : "0.1.0",
+    "name" : "CSOpcionesCierre"
+  },
+  {
     "id" : "CSPrestacion",
     "type" : "CodeSystem",
     "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion",
@@ -56,9 +63,9 @@
     "name" : "sigescg"
   },
   {
-    "id" : "CreacionCaso",
+    "id" : "CierreNotifSG",
     "type" : "Questionnaire",
-    "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CierreNotifSG",
     "version" : "0.1.0"
   },
   {
@@ -77,6 +84,12 @@
     "id" : "SolEndoscop",
     "type" : "Questionnaire",
     "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop",
+    "version" : "0.1.0"
+  },
+  {
+    "id" : "SolicitudI",
+    "type" : "Questionnaire",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI",
     "version" : "0.1.0"
   },
   {
@@ -113,6 +126,13 @@
     "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSMArca",
     "version" : "0.1.0",
     "name" : "VSMarca"
+  },
+  {
+    "id" : "VSOpcionesCierre",
+    "type" : "ValueSet",
+    "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSOpcionesCierre",
+    "version" : "0.1.0",
+    "name" : "VSOpcionesCierre"
   },
   {
     "id" : "VSPrestacion",

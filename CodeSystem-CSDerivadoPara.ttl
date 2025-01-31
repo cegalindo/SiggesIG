@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "CSDerivadoPara"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem CSDerivadoPara</b></p><a name=\"CSDerivadoPara\"> </a><a name=\"hcCSDerivadoPara\"> </a><a name=\"CSDerivadoPara-es-CL\"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSDerivadoPara-1\"> </a></td><td>Confirmación Diagnóstica</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSDerivadoPara-2\"> </a></td><td>Realizar Tratamiento</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSDerivadoPara-3\"> </a></td><td>A Seguimiento</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSDerivadoPara-4\"> </a></td><td>Control de Especialidad</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSDerivadoPara-5\"> </a></td><td>Otro</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSDerivadoPara-6\"> </a></td><td>Seguimiento</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSDerivadoPara-7\"> </a></td><td>Tratamiento</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSDerivadoPara-8\"> </a></td><td>Otro</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSDerivadoPara-9\"> </a></td><td>Diagnostico</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSDerivadoPara-10\"> </a></td><td>Rehabilitación</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CSDerivadoPara-11\"> </a></td><td>Rehabilitación</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem CSDerivadoPara</b></p><a name=\"CSDerivadoPara\"> </a><a name=\"hcCSDerivadoPara\"> </a><a name=\"CSDerivadoPara-es-CL\"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSDerivadoPara-1\"> </a></td><td>Confirmación Diagnóstica</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSDerivadoPara-2\"> </a></td><td>Realizar Tratamiento</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSDerivadoPara-3\"> </a></td><td>A Seguimiento</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSDerivadoPara-4\"> </a></td><td>Control de Especialidad</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSDerivadoPara-5\"> </a></td><td>Otro</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSDerivadoPara-6\"> </a></td><td>Seguimiento</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSDerivadoPara-7\"> </a></td><td>Tratamiento</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSDerivadoPara-9\"> </a></td><td>Diagnostico</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSDerivadoPara-10\"> </a></td><td>Rehabilitación</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Códigos asociados a la derivación"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-11-28T09:34:47-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-31T15:38:22-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;
@@ -37,7 +37,7 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "1" ] ;
      fhir:display [ fhir:v "Confirmación Diagnóstica" ]
@@ -60,16 +60,10 @@
      fhir:code [ fhir:v "7" ] ;
      fhir:display [ fhir:v "Tratamiento" ]
   ] [
-     fhir:code [ fhir:v "8" ] ;
-     fhir:display [ fhir:v "Otro" ]
-  ] [
      fhir:code [ fhir:v "9" ] ;
      fhir:display [ fhir:v "Diagnostico" ]
   ] [
      fhir:code [ fhir:v "10" ] ;
-     fhir:display [ fhir:v "Rehabilitación" ]
-  ] [
-     fhir:code [ fhir:v "11" ] ;
      fhir:display [ fhir:v "Rehabilitación" ]
   ] ) . # 
 

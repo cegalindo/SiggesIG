@@ -30,6 +30,17 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"]
     },
     {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSOpcionesCierre",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSOpcionesCierre",
+      "title" : "Códigos opciones para Cierre o Extensión",
+      "description" : "Codigos asociados para el cierre o la extención de garantía",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre"
+      ]
+    },
+    {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion",
       "version" : "0.1.0",
       "status" : "active",

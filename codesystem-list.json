@@ -25,6 +25,14 @@
       "description" : "Codigos de la marca del paciente"
     },
     {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "CSOpcionesCierre",
+      "title" : "Códigos opciones para Cierre o Extensión",
+      "description" : "Codigos asociados para el cierre o la extención de garantía"
+    },
+    {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion",
       "version" : "0.1.0",
       "status" : "active",

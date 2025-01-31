@@ -2,6 +2,7 @@ URL,Version,Status,OIDs,Name,Title,Description,Used
 https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara,0.1.0,active,,CSDerivadoPara,Códigos asociados a la derivación,"Codigos asociados para la derivación de paciente, indicando el objetivo",
 https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSExamenes,0.1.0,active,,CSExamenes,Códigos de Exámenes,"Codigos para examenes realizados por el paciente",
 https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca,0.1.0,active,,CSMarca,Códigos de Marca,"Codigos de la marca del paciente",
+https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre,0.1.0,active,,CSOpcionesCierre,Códigos opciones para Cierre o Extensión,"Codigos asociados para el cierre o la extención de garantía",
 https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrestacion,0.1.0,active,,CSPrestacion,Códigos de prestaciones,"Codigos para prestaciones",
 https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision,0.1.0,active,,CSPrevision,CS Prevision,"Codigos de la previsión del paciente",
 https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud,0.1.0,active,,CSProbSalud,Códigos de Problemas de Salud,"Codigos para problemas de salud de paciente",

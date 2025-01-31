@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="CSTipoDoc"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CSTipoDoc</b></p><a name="CSTipoDoc"> </a><a name="hcCSTipoDoc"> </a><a name="CSTipoDoc-es-CL"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSTipoDoc-1"> </a></td><td>Solicitud de interconsulta	SIC</td></tr><tr><td style="white-space:nowrap">2<a name="CSTipoDoc-2"> </a></td><td>Informe Proceso Diagnostico IPD</td></tr><tr><td style="white-space:nowrap">3<a name="CSTipoDoc-3"> </a></td><td>Orden de Atención OA</td></tr><tr><td style="white-space:nowrap">10<a name="CSTipoDoc-10"> </a></td><td>Prestacion Otorgada	PO</td></tr><tr><td style="white-space:nowrap">15<a name="CSTipoDoc-15"> </a></td><td>Programa Especial PE</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CSTipoDoc</b></p><a name="CSTipoDoc"> </a><a name="hcCSTipoDoc"> </a><a name="CSTipoDoc-es-CL"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSTipoDoc-1"> </a></td><td>Solicitud de interconsulta SIC</td></tr><tr><td style="white-space:nowrap">2<a name="CSTipoDoc-2"> </a></td><td>Informe Proceso Diagnostico IPD</td></tr><tr><td style="white-space:nowrap">3<a name="CSTipoDoc-3"> </a></td><td>Orden de Atención OA</td></tr><tr><td style="white-space:nowrap">10<a name="CSTipoDoc-10"> </a></td><td>Prestacion Otorgada	PO</td></tr><tr><td style="white-space:nowrap">15<a name="CSTipoDoc-15"> </a></td><td>Programa Especial PE</td></tr></table></div>
   </text>
   <url value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Códigos de tipo de documento"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-11-28T09:34:47-03:00"/>
+  <date value="2025-01-31T15:38:22-03:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -33,7 +33,7 @@
   <count value="5"/>
   <concept>
     <code value="1"/>
-    <display value="Solicitud de interconsulta&#x9;SIC"/>
+    <display value="Solicitud de interconsulta SIC"/>
   </concept>
   <concept>
     <code value="2"/>

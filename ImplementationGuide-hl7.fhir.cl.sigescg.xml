@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="sigescg"/>
   <status value="draft"/>
-  <date value="2024-11-28T09:34:47-03:00"/>
+  <date value="2025-01-31T15:38:22-03:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -34,7 +34,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.1.0"/>
+    <version value="6.2.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -455,17 +455,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Questionnaire"/>
-      </extension>
-      <reference>
-        <reference value="Questionnaire/CreacionCaso"/>
-      </reference>
-      <name value="Creación de Caso"/>
-      <description value="Formularo Caso de Uso 1: Creación de Caso"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -601,6 +590,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/VSOpcionesCierre"/>
+      </reference>
+      <name value="Códigos opciones para Cierre o Extensión"/>
+      <description value="Codigos asociados para el cierre o la extención de garantía"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CSOpcionesCierre"/>
+      </reference>
+      <name value="Códigos opciones para Cierre o Extensión"/>
+      <description value="Codigos asociados para el cierre o la extención de garantía"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/VSProbSalud"/>
       </reference>
       <name value="Códigos Problemas de Salud"/>
@@ -625,8 +636,8 @@
       <reference>
         <reference value="QuestionnaireResponse/Caso2"/>
       </reference>
-      <name value="Ejemplo de formulario de notificación de atención"/>
-      <description value="Ejemplo de datos para la creación de un formulario"/>
+      <name value="Ejemplo de formulario de Atención Especialidad (Prestación Otorgada)"/>
+      <description value="Ejemplo de datos para la prestación otorgada (Caso 2)"/>
       <exampleCanonical value="https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"/>
     </resource>
     <resource>
@@ -634,10 +645,10 @@
         <valueString value="QuestionnaireResponse"/>
       </extension>
       <reference>
-        <reference value="QuestionnaireResponse/Caso1"/>
+        <reference value="QuestionnaireResponse/Caso5"/>
       </reference>
-      <name value="Ejemplo formulario de Notificación de atención"/>
-      <description value="Ejemplo de datos para la notificación de una atención"/>
+      <name value="Ejemplo formulario de Notificación de Cierre de Caso o Exepción de garantías"/>
+      <description value="Ejemplo de datos para la creación de un formulario  (Caso 5)"/>
       <exampleCanonical value="https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"/>
     </resource>
     <resource>
@@ -648,7 +659,7 @@
         <reference value="QuestionnaireResponse/Caso4"/>
       </reference>
       <name value="Ejemplo formulario de notificación de informe proceso diagnóstico"/>
-      <description value="Ejemplo de datos para la creación de un formulario"/>
+      <description value="Ejemplo de datos para la creación de un formulario  (Caso 4)"/>
       <exampleCanonical value="https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"/>
     </resource>
     <resource>
@@ -658,8 +669,19 @@
       <reference>
         <reference value="QuestionnaireResponse/Caso3"/>
       </reference>
-      <name value="Ejemplo formulario de solicitud de endoscopía"/>
-      <description value="Ejemplo de datos para la creación de un formulario"/>
+      <name value="Ejemplo formulario de solicitud de endoscopía (Orden de Atención)"/>
+      <description value="Ejemplo de datos para la creación de un formulario  (Caso 3)"/>
+      <exampleCanonical value="https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/SolicitudInter"/>
+      </reference>
+      <name value="Ejemplo formulario de Solicitud de Interconsulta"/>
+      <description value="Ejemplo de datos para la solicitud de una interconsulta  (Caso 1)"/>
       <exampleCanonical value="https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"/>
     </resource>
     <resource>
@@ -669,8 +691,19 @@
       <reference>
         <reference value="Questionnaire/NotiAtenEsp"/>
       </reference>
-      <name value="Notificacion Atención Especialidad"/>
+      <name value="Notificacion Atención Especialidad (Prestación Otorgada)"/>
       <description value="Formularo Caso de Uso 2: Atención Especialidad"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/CierreNotifSG"/>
+      </reference>
+      <name value="Notificación de Cierre de Caso"/>
+      <description value="Formularo Caso de Uso 5: Notificación de cierre de caso GES / Excepción de GO / Cierre de GO"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -691,8 +724,19 @@
       <reference>
         <reference value="Questionnaire/SolEndoscop"/>
       </reference>
-      <name value="Notificación Solicitud Endoscopía"/>
+      <name value="Notificación Solicitud Endoscopía (Orden de Atención)"/>
       <description value="Formularo Caso de Uso 3: Notificación de Solicitud de una Endoscopía"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/SolicitudI"/>
+      </reference>
+      <name value="Solicitud de Interconsulta"/>
+      <description value="Formularo Caso de Uso 1: Solicitud de una Consulta"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

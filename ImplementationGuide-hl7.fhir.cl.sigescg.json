@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "sigescg",
   "status" : "draft",
-  "date" : "2024-11-28T09:34:47-03:00",
+  "date" : "2025-01-31T15:38:22-03:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -36,7 +36,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.1.0"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -612,18 +612,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Questionnaire"
-      }],
-      "reference" : {
-        "reference" : "Questionnaire/CreacionCaso"
-      },
-      "name" : "Creación de Caso",
-      "description" : "Formularo Caso de Uso 1: Creación de Caso",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -771,6 +759,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/VSOpcionesCierre"
+      },
+      "name" : "Códigos opciones para Cierre o Extensión",
+      "description" : "Codigos asociados para el cierre o la extención de garantía",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSOpcionesCierre"
+      },
+      "name" : "Códigos opciones para Cierre o Extensión",
+      "description" : "Codigos asociados para el cierre o la extención de garantía",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/VSProbSalud"
       },
       "name" : "Códigos Problemas de Salud",
@@ -797,8 +809,8 @@
       "reference" : {
         "reference" : "QuestionnaireResponse/Caso2"
       },
-      "name" : "Ejemplo de formulario de notificación de atención",
-      "description" : "Ejemplo de datos para la creación de un formulario",
+      "name" : "Ejemplo de formulario de Atención Especialidad (Prestación Otorgada)",
+      "description" : "Ejemplo de datos para la prestación otorgada (Caso 2)",
       "exampleCanonical" : "https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"
     },
     {
@@ -807,10 +819,10 @@
         "valueString" : "QuestionnaireResponse"
       }],
       "reference" : {
-        "reference" : "QuestionnaireResponse/Caso1"
+        "reference" : "QuestionnaireResponse/Caso5"
       },
-      "name" : "Ejemplo formulario de Notificación de atención",
-      "description" : "Ejemplo de datos para la notificación de una atención",
+      "name" : "Ejemplo formulario de Notificación de Cierre de Caso o Exepción de garantías",
+      "description" : "Ejemplo de datos para la creación de un formulario  (Caso 5)",
       "exampleCanonical" : "https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"
     },
     {
@@ -822,7 +834,7 @@
         "reference" : "QuestionnaireResponse/Caso4"
       },
       "name" : "Ejemplo formulario de notificación de informe proceso diagnóstico",
-      "description" : "Ejemplo de datos para la creación de un formulario",
+      "description" : "Ejemplo de datos para la creación de un formulario  (Caso 4)",
       "exampleCanonical" : "https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"
     },
     {
@@ -833,8 +845,20 @@
       "reference" : {
         "reference" : "QuestionnaireResponse/Caso3"
       },
-      "name" : "Ejemplo formulario de solicitud de endoscopía",
-      "description" : "Ejemplo de datos para la creación de un formulario",
+      "name" : "Ejemplo formulario de solicitud de endoscopía (Orden de Atención)",
+      "description" : "Ejemplo de datos para la creación de un formulario  (Caso 3)",
+      "exampleCanonical" : "https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "QuestionnaireResponse"
+      }],
+      "reference" : {
+        "reference" : "QuestionnaireResponse/SolicitudInter"
+      },
+      "name" : "Ejemplo formulario de Solicitud de Interconsulta",
+      "description" : "Ejemplo de datos para la solicitud de una interconsulta  (Caso 1)",
       "exampleCanonical" : "https://hl7chile.cl/fhir/ig/sigescg/StructureDefinition/datos-sigges-formularios"
     },
     {
@@ -845,8 +869,20 @@
       "reference" : {
         "reference" : "Questionnaire/NotiAtenEsp"
       },
-      "name" : "Notificacion Atención Especialidad",
+      "name" : "Notificacion Atención Especialidad (Prestación Otorgada)",
       "description" : "Formularo Caso de Uso 2: Atención Especialidad",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/CierreNotifSG"
+      },
+      "name" : "Notificación de Cierre de Caso",
+      "description" : "Formularo Caso de Uso 5: Notificación de cierre de caso GES / Excepción de GO / Cierre de GO",
       "exampleBoolean" : true
     },
     {
@@ -869,8 +905,20 @@
       "reference" : {
         "reference" : "Questionnaire/SolEndoscop"
       },
-      "name" : "Notificación Solicitud Endoscopía",
+      "name" : "Notificación Solicitud Endoscopía (Orden de Atención)",
       "description" : "Formularo Caso de Uso 3: Notificación de Solicitud de una Endoscopía",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/SolicitudI"
+      },
+      "name" : "Solicitud de Interconsulta",
+      "description" : "Formularo Caso de Uso 1: Solicitud de una Consulta",
       "exampleBoolean" : true
     },
     {

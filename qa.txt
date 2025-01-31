@@ -1,31 +1,35 @@
 sigescg : Validation Results
 =========================================
 
-err = 32, warn = 22, info = 6
-IG Publisher Version: 1.7.3 Out of date - current version is 1.7.5
-Generated Thu Nov 28 09:37:25 CLST 2024. FHIR version 4.0.1 for hl7.fhir.cl.sigescg#0.1.0 (canonical = https://hl7chile.cl/fhir/ig/sigescg)
+err = 8, warn = 9, info = 9
+IG Publisher Version: 1.8.8 Out of date - current version is 1.8.10
+Generated Fri Jan 31 15:41:59 CLST 2025. FHIR version 4.0.1 for hl7.fhir.cl.sigescg#0.1.0 (canonical = https://hl7chile.cl/fhir/ig/sigescg)
  Build Errors : 0 / 4 / 0
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSDerivadoPara : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSExamenes : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSMarca : 0 / 0 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSOpcionesCierre : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSPrestacion : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSPrevision : 0 / 0 / 1
- C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSProbSalud : 0 / 1 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSProbSalud : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSTipoDoc : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.sigescg : 0 / 1 / 1
- C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-CreacionCaso : 0 / 0 / 2
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-CierreNotifSG : 0 / 1 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-NotiAtenEsp : 0 / 0 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-ProsDiag : 0 / 0 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-SolEndoscop : 0 / 0 / 2
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso1 : 11 / 6 / 2
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso2 : 12 / 4 / 1
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso3 : 5 / 2 / 1
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso4 : 4 / 2 / 2
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-SolicitudI : 0 / 0 / 2
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso2 : 1 / 0 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso3 : 0 / 0 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso4 : 2 / 0 / 2
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso5 : 0 / 1 / 2
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-SolicitudInter : 5 / 0 / 3
  C:\GI_FHIR\SigesCG\fsh-generated\resources\StructureDefinition-TipoDoc : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\StructureDefinition-datos-sigges-formularios : 0 / 2 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSDerivadoPara : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSExamenes : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSMArca : 0 / 0 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSOpcionesCierre : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSPrestacion : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSPrevision : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSProbSalud : 0 / 0 / 1
@@ -34,78 +38,47 @@ Generated Thu Nov 28 09:37:25 CLST 2024. FHIR version 4.0.1 for hl7.fhir.cl.sige
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\CodeSystem-CSDerivadoPara.json ==
 == fsh-generated\resources\CodeSystem-CSExamenes.json ==
 == fsh-generated\resources\CodeSystem-CSMarca.json ==
+== fsh-generated\resources\CodeSystem-CSOpcionesCierre.json ==
 == fsh-generated\resources\CodeSystem-CSPrestacion.json ==
 == fsh-generated\resources\CodeSystem-CSPrevision.json ==
 == fsh-generated\resources\CodeSystem-CSProbSalud.json ==
-WARNING: CodeSystem/CSProbSalud: CodeSystem.concept[83].display: el valor no puede empezar o terminar con espacios en blanco 'Atención Integral de Salud en Agresión Sexual Aguda '
 == fsh-generated\resources\CodeSystem-CSTipoDoc.json ==
 == fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.sigescg.json ==
 WARNING: ImplementationGuide/hl7.fhir.cl.sigescg: ImplementationGuide: !!La regla ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló
-== fsh-generated\resources\Questionnaire-CreacionCaso.json ==
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated\resources\Questionnaire-CierreNotifSG.json ==
+WARNING: Questionnaire/CierreNotifSG: Questionnaire.item[1].text: el valor no puede empezar o terminar con espacios en blanco 'Datos asociados al cierre del caso o a la Excpción de Garantía '
+INFORMATION: Resource: The resource Questionnaire/CierreNotifSG could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated\resources\Questionnaire-NotiAtenEsp.json ==
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+INFORMATION: Resource: The resource Questionnaire/NotiAtenEsp could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated\resources\Questionnaire-ProsDiag.json ==
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+INFORMATION: Resource: The resource Questionnaire/ProsDiag could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated\resources\Questionnaire-SolEndoscop.json ==
-INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-== fsh-generated\resources\QuestionnaireResponse-Caso1.json ==
-WARNING: QuestionnaireResponse/Caso1: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept): Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)
-WARNING: QuestionnaireResponse/Caso1: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-INFORMATION: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[0].item[5].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision' could not be found, so the code cannot be validated
-WARNING: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[0].item[2].item[2].answer[0]: The code provided null cannot be validated in the options value set (Códigos de Provincias en Chile) in the questionnaire because the system 131 could not be found
-WARNING: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[0].item[2].item[3].answer[0]: The code provided null cannot be validated in the options value set (Códigos de Regiones en Chile) in the questionnaire because the system 13 could not be found
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[0].item[5].item[0].answer[0]: !!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision::1) no está en el conjunto de valores para las opciones provisto por el cuestionario
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[0].item[5]: No se ha encontrado respuesta para el item requerido 'acreditacionPac'
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1]: El LinkId 'estadoCaso' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[1]: El LinkId 'servicioSaludNotificacion' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[1]: El LinkId 'establecimientoOrigen' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[1]: El LinkId 'unidadClinicaDestino' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[1]: No se ha encontrado respuesta para el item requerido 'servicioSaludDestino'
-WARNING: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[2].item[0].answer[0]: The code provided null cannot be validated in the options value set (Códigos de Especialidades) in the questionnaire because the system 01 could not be found
-WARNING: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[3].item[0].answer[0]: !!El ValueSet https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDerivadoPara no ha sido encontrado por el validador
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[5]: El LinkId 'numeroFolio' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[5]: El LinkId 'numeroCaso' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso1: QuestionnaireResponse.item[1].item[5]: No se ha encontrado respuesta para el item requerido 'codEstadoCaso'
+INFORMATION: Resource: The resource Questionnaire/SolEndoscop could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated\resources\Questionnaire-SolicitudI.json ==
+INFORMATION: Resource: The resource Questionnaire/SolicitudI could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated\resources\QuestionnaireResponse-Caso2.json ==
-WARNING: QuestionnaireResponse/Caso2: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept): Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)
-WARNING: QuestionnaireResponse/Caso2: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-WARNING: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[0].item[2].item[2].answer[0]: The code provided null cannot be validated in the options value set (Códigos de Provincias en Chile) in the questionnaire because the system 131 could not be found
-WARNING: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[0].item[2].item[3].answer[0]: The code provided null cannot be validated in the options value set (Códigos de Regiones en Chile) in the questionnaire because the system 13 could not be found
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[0].item[5]: El LinkId 'numeroCaso' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[0].item[5]: No se ha encontrado respuesta para el item requerido 'caso'
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1]: El LinkId 'PrestacionEj' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1]: Error Estructural: los items están fuera de orden
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[0]: El LinkId 'nombreOrganizacionOrg' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[0]: El LinkId 'nombreServicioSaludOrg' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[0]: No se ha encontrado respuesta para el item requerido 'nombreEstablecimientoOrg'
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1]: No se ha encontrado respuesta para el item requerido 'ejecutorPrestacion'
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[2]: El LinkId 'fechaInicio' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[2]: No se ha encontrado respuesta para el item requerido 'horaInicio'
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[2]: No se ha encontrado respuesta para el item requerido 'horaFin'
+ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[0]: Error Estructural: los items están fuera de orden
 == fsh-generated\resources\QuestionnaireResponse-Caso3.json ==
-WARNING: QuestionnaireResponse/Caso3: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/Caso3: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept): Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)
-WARNING: QuestionnaireResponse/Caso3: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/Caso3: QuestionnaireResponse: El LinkId 'profesionalNotificador' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso3: QuestionnaireResponse: El LinkId 'SolicitudAtencionPrest' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso3: QuestionnaireResponse: No se ha encontrado respuesta para el item requerido 'profesionalSolicitante'
-ERROR: QuestionnaireResponse/Caso3: QuestionnaireResponse: No se ha encontrado respuesta para el item requerido 'solicitudAtencionPrest'
 == fsh-generated\resources\QuestionnaireResponse-Caso4.json ==
-WARNING: QuestionnaireResponse/Caso4: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept): Ninguno de los codings provistos están en el conjunto de valores 'Códigos de tipo de documento' (https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc|0.1.0), y se requiere un código de este conjunto de valores) (codes = https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc#1)
-WARNING: QuestionnaireResponse/Caso4: QuestionnaireResponse.extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSTipoDoc' could not be found, so the code cannot be validated
-INFORMATION: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[2].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse: El LinkId 'profesionalNotificador' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse: No se ha encontrado respuesta para el item requerido 'profesionalSolicitante'
-ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[2].item[0].answer[0]: !!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud::27) no está en el conjunto de valores para las opciones provisto por el cuestionario
+INFORMATION: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[3].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud' could not be found, so the code cannot be validated
+ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[3].item[0].answer[0]: !!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud::27) no está en el conjunto de valores para las opciones provisto por el cuestionario
+ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[4]: El LinkId 'indicaciones' no ha sido encontrado en el cuestionario
+== fsh-generated\resources\QuestionnaireResponse-Caso5.json ==
+INFORMATION: QuestionnaireResponse/Caso5: QuestionnaireResponse.item[1].item[3].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud' could not be found, so the code cannot be validated
+WARNING: QuestionnaireResponse/Caso5: QuestionnaireResponse: La referencia al cuestionario 'https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/Etapificacion' no pudo ser resuelta, asi que no se puede realizar la validación contra el cuestionario base
+== fsh-generated\resources\QuestionnaireResponse-SolicitudInter.json ==
+INFORMATION: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSMArca' could not be found, so the code cannot be validated
+INFORMATION: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5].item[1].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision' could not be found, so the code cannot be validated
+ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse: El LinkId 'solicitudInter' no ha sido encontrado en el cuestionario
+ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5]: El LinkId 'creditacionPac' no ha sido encontrado en el cuestionario
+ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5].item[0].answer[0]: !!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSMArca::01) no está en el conjunto de valores para las opciones provisto por el cuestionario
+ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5]: No se ha encontrado respuesta para el item requerido 'acreditacionPac'
+ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse: No se ha encontrado respuesta para el item requerido 'solicitudCaso'
 == fsh-generated\resources\StructureDefinition-TipoDoc.json ==
 == fsh-generated\resources\StructureDefinition-datos-sigges-formularios.json ==
 WARNING: StructureDefinition/datos-sigges-formularios: StructureDefinition.snapshot.element[15].short: el valor no puede empezar o terminar con espacios en blanco 'Namespace del valor de identificación. '
@@ -113,6 +86,7 @@ WARNING: StructureDefinition/datos-sigges-formularios: StructureDefinition.diffe
 == fsh-generated\resources\ValueSet-VSDerivadoPara.json ==
 == fsh-generated\resources\ValueSet-VSExamenes.json ==
 == fsh-generated\resources\ValueSet-VSMArca.json ==
+== fsh-generated\resources\ValueSet-VSOpcionesCierre.json ==
 == fsh-generated\resources\ValueSet-VSPrestacion.json ==
 == fsh-generated\resources\ValueSet-VSPrevision.json ==
 == fsh-generated\resources\ValueSet-VSProbSalud.json ==

@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -44,6 +45,7 @@
     h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -241,6 +243,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="ValueSet-VSOpcionesCierre.html" title="ValueSet/VSOpcionesCierre">Códigos opciones para Cierre o Extensión</a>
+            </td>
+            <td>
+<p>Codigos asociados para el cierre o la extención de garantía</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="ValueSet-VSPrevision.html" title="ValueSet/VSPrevision">VS Prevision</a>
             </td>
             <td>
@@ -311,6 +321,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Codigos para tipo de documento</p>
 </td>
          </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-CSOpcionesCierre.html"
+                  title="CodeSystem/CSOpcionesCierre">Códigos opciones para Cierre o Extensión</a>
+            </td>
+            <td>
+<p>Codigos asociados para el cierre o la extención de garantía</p>
+</td>
+         </tr>
       </tbody>
    </table>
    <a name="5"> </a>
@@ -321,29 +340,29 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="Questionnaire-CreacionCaso.html"
-                  title="Questionnaire/CreacionCaso">Creación de Caso</a>
-            </td>
-            <td>
-<p>Formularo Caso de Uso 1: Creación de Caso</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="QuestionnaireResponse-Caso2.html"
-                  title="QuestionnaireResponse/Caso2">Ejemplo de formulario de notificación de atención</a>
+                  title="QuestionnaireResponse/Caso2">Ejemplo de formulario de Atención Especialidad (Prestación Otorgada)</a>
             </td>
             <td>
-<p>Ejemplo de datos para la creación de un formulario</p>
+<p>Ejemplo de datos para la prestación otorgada (Caso 2)</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="QuestionnaireResponse-Caso1.html"
-                  title="QuestionnaireResponse/Caso1">Ejemplo formulario de Notificación de atención</a>
+               <a href="QuestionnaireResponse-Caso5.html"
+                  title="QuestionnaireResponse/Caso5">Ejemplo formulario de Notificación de Cierre de Caso o Exepción de garantías</a>
             </td>
             <td>
-<p>Ejemplo de datos para la notificación de una atención</p>
+<p>Ejemplo de datos para la creación de un formulario  (Caso 5)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="QuestionnaireResponse-SolicitudInter.html"
+                  title="QuestionnaireResponse/SolicitudInter">Ejemplo formulario de Solicitud de Interconsulta</a>
+            </td>
+            <td>
+<p>Ejemplo de datos para la solicitud de una interconsulta  (Caso 1)</p>
 </td>
          </tr>
          <tr>
@@ -352,21 +371,21 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="QuestionnaireResponse/Caso4">Ejemplo formulario de notificación de informe proceso diagnóstico</a>
             </td>
             <td>
-<p>Ejemplo de datos para la creación de un formulario</p>
+<p>Ejemplo de datos para la creación de un formulario  (Caso 4)</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="QuestionnaireResponse-Caso3.html"
-                  title="QuestionnaireResponse/Caso3">Ejemplo formulario de solicitud de endoscopía</a>
+                  title="QuestionnaireResponse/Caso3">Ejemplo formulario de solicitud de endoscopía (Orden de Atención)</a>
             </td>
             <td>
-<p>Ejemplo de datos para la creación de un formulario</p>
+<p>Ejemplo de datos para la creación de un formulario  (Caso 3)</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Questionnaire-NotiAtenEsp.html" title="Questionnaire/NotiAtenEsp">Notificacion Atención Especialidad</a>
+               <a href="Questionnaire-NotiAtenEsp.html" title="Questionnaire/NotiAtenEsp">Notificacion Atención Especialidad (Prestación Otorgada)</a>
             </td>
             <td>
 <p>Formularo Caso de Uso 2: Atención Especialidad</p>
@@ -374,10 +393,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Questionnaire-SolEndoscop.html" title="Questionnaire/SolEndoscop">Notificación Solicitud Endoscopía</a>
+               <a href="Questionnaire-SolEndoscop.html" title="Questionnaire/SolEndoscop">Notificación Solicitud Endoscopía (Orden de Atención)</a>
             </td>
             <td>
 <p>Formularo Caso de Uso 3: Notificación de Solicitud de una Endoscopía</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Questionnaire-CierreNotifSG.html"
+                  title="Questionnaire/CierreNotifSG">Notificación de Cierre de Caso</a>
+            </td>
+            <td>
+<p>Formularo Caso de Uso 5: Notificación de cierre de caso GES / Excepción de GO / Cierre de GO</p>
 </td>
          </tr>
          <tr>
@@ -386,6 +414,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>Formularo Caso de Uso 4: Notificación de Informe Proceso Diagnóstico</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Questionnaire-SolicitudI.html" title="Questionnaire/SolicitudI">Solicitud de Interconsulta</a>
+            </td>
+            <td>
+<p>Formularo Caso de Uso 1: Solicitud de una Consulta</p>
 </td>
          </tr>
       </tbody>
@@ -408,7 +444,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.sigescg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 28, 2024 09:34-0300">2024-11-28</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.sigescg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 31, 2025 15:38-0300">2025-01-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

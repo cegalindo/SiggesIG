@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSOpcionesCierre"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CSOpcionesCierre</b></p><a name="CSOpcionesCierre"> </a><a name="hcCSOpcionesCierre"> </a><a name="CSOpcionesCierre-es-CL"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSOpcionesCierre-1"> </a></td><td>Cierra Caso</td></tr><tr><td style="white-space:nowrap">2<a name="CSOpcionesCierre-2"> </a></td><td>Excepción Garantía</td></tr><tr><td style="white-space:nowrap">3<a name="CSOpcionesCierre-3"> </a></td><td>Cierre Garantía Oportunidad</td></tr></table></div>
+  </text>
+  <url value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre"/>
+  <version value="0.1.0"/>
+  <name value="CSOpcionesCierre"/>
+  <title value="Códigos opciones para Cierre o Extensión"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-01-31T15:38:22-03:00"/>
+  <publisher value="HL7 Chile"/>
+  <contact>
+    <name value="HL7 Chile"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hl7chile.cl"/>
+    </telecom>
+  </contact>
+  <description value="Codigos asociados para el cierre o la extención de garantía"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="1"/>
+    <display value="Cierra Caso"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Excepción Garantía"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Cierre Garantía Oportunidad"/>
+  </concept>
+</CodeSystem>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8c8c5baf-398d-4768-845f-c13f319e3ccf"/>
+  <id value="dc070190-86df-4dad-b990-93264ad4f02a"/>
   <meta>
-    <lastUpdated value="2024-11-28T09:34:47.305-03:00"/>
+    <lastUpdated value="2025-01-31T15:38:22.088-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -16,10 +16,10 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-CSDerivadoPara.html">codesystem Códigos asociados a la derivación v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 11 concepts</p>
+            <p>This value set contains 9 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -90,14 +90,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-8"> </a>  
-                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-8">8</a>
-                </td>
-                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
-                <td>Otro</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-9"> </a>  
                   <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-9">9</a>
                 </td>
@@ -112,14 +104,6 @@
                 <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
                 <td>Rehabilitación</td>
               </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara-11"> </a>  
-                  <a href="CodeSystem-CSDerivadoPara.html#CSDerivadoPara-11">11</a>
-                </td>
-                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara</td>
-                <td>Rehabilitación</td>
-              </tr>
             </table>
           </div>
         </text>
@@ -129,7 +113,7 @@
         <title value="Códigos asociados a la derivación"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-28T09:34:47-03:00"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -138,9 +122,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4e78bfcf-818f-4298-8e22-5405074493b6"/>
-          <timestamp value="2024-11-28T09:36:00-03:00"/>
-          <total value="11"/>
+          <identifier value="urn:uuid:ee34be91-48ee-4a9c-98d6-21ff1a0a56ff"/>
+          <timestamp value="2025-01-31T15:39:22-03:00"/>
+          <total value="9"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -195,22 +179,12 @@
           </contains>
           <contains>
             <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
-            <code value="8"/>
-            <display value="Otro"/>
-          </contains>
-          <contains>
-            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
             <code value="9"/>
             <display value="Diagnostico"/>
           </contains>
           <contains>
             <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
             <code value="10"/>
-            <display value="Rehabilitación"/>
-          </contains>
-          <contains>
-            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSDerivadoPara"/>
-            <code value="11"/>
             <display value="Rehabilitación"/>
           </contains>
         </expansion>
@@ -227,7 +201,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-CSExamenes.html">codesystem Códigos de Exámenes v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -276,7 +250,7 @@
         <title value="Códigos de  Exámenes"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-28T09:34:47-03:00"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -285,8 +259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c79ac109-03eb-40c3-a2c1-97849f3a1c1f"/>
-          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <identifier value="urn:uuid:64d9291d-4d92-4660-a8c7-505e7ff04514"/>
+          <timestamp value="2025-01-31T15:39:23-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -334,7 +308,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-CSMarca.html">codesystem Códigos de Marca v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 5 concepts</p>
@@ -399,7 +373,7 @@
         <title value="Códigos de  Marca"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-28T09:34:47-03:00"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -408,8 +382,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:87b3b73b-385a-4a09-941c-bda71d6ba913"/>
-          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <identifier value="urn:uuid:0bb26da4-b454-46c4-b012-2ea2f6217a55"/>
+          <timestamp value="2025-01-31T15:39:23-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -458,6 +432,113 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSOpcionesCierre"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
+              <a href="CodeSystem-CSOpcionesCierre.html">codesystem Códigos opciones para Cierre o Extensión v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre-1"> </a>  
+                  <a href="CodeSystem-CSOpcionesCierre.html#CSOpcionesCierre-1">1</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre</td>
+                <td>Cierra Caso</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre-2"> </a>  
+                  <a href="CodeSystem-CSOpcionesCierre.html#CSOpcionesCierre-2">2</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre</td>
+                <td>Excepción Garantía</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre-3"> </a>  
+                  <a href="CodeSystem-CSOpcionesCierre.html#CSOpcionesCierre-3">3</a>
+                </td>
+                <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre</td>
+                <td>Cierre Garantía Oportunidad</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSOpcionesCierre"/>
+        <version value="0.1.0"/>
+        <name value="VSOpcionesCierre"/>
+        <title value="Códigos opciones para Cierre o Extensión"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f0e0af97-1ff4-4740-b2be-908728011d6e"/>
+          <timestamp value="2025-01-31T15:39:23-03:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre"/>
+            <code value="1"/>
+            <display value="Cierra Caso"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre"/>
+            <code value="2"/>
+            <display value="Excepción Garantía"/>
+          </contains>
+          <contains>
+            <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre"/>
+            <code value="3"/>
+            <display value="Cierre Garantía Oportunidad"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion"/>
     <resource>
       <ValueSet>
@@ -467,7 +548,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-CSPrestacion.html">codesystem Códigos de prestaciones v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 1 concepts</p>
@@ -500,7 +581,7 @@
         <title value="Códigos de prestaciones"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-28T09:34:47-03:00"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -509,8 +590,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:da1160c5-dea8-4909-92b6-a7ecb68772bb"/>
-          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <identifier value="urn:uuid:e46f55e4-29df-49bc-9c9a-515c4212355a"/>
+          <timestamp value="2025-01-31T15:39:24-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -548,7 +629,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-CSPrevision.html">codesystem CS Prevision v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 7 concepts</p>
@@ -629,7 +710,7 @@
         <title value="VS Prevision"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-28T09:34:47-03:00"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -638,8 +719,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fddba34b-b72e-40a8-87ff-de0e1eb401ed"/>
-          <timestamp value="2024-11-28T09:36:01-03:00"/>
+          <identifier value="urn:uuid:c9bc0f63-f94d-42c5-86d3-0f22fee5a858"/>
+          <timestamp value="2025-01-31T15:39:24-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -707,7 +788,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-CSProbSalud.html">codesystem Códigos de Problemas de Salud v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 87 concepts</p>
@@ -1393,7 +1474,7 @@
                   <a href="CodeSystem-CSProbSalud.html#CSProbSalud-86">86</a>
                 </td>
                 <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud</td>
-                <td>Atención Integral de Salud en Agresión Sexual Aguda </td>
+                <td>Atención Integral de Salud en Agresión Sexual Aguda</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1428,7 +1509,7 @@
         <title value="Códigos Problemas de Salud"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-28T09:34:47-03:00"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1437,8 +1518,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:68a5147b-1fcc-4f2b-9f30-f5d279db1944"/>
-          <timestamp value="2024-11-28T09:36:02-03:00"/>
+          <identifier value="urn:uuid:dce8b52f-ca4f-4ab1-8736-7fb953d733b4"/>
+          <timestamp value="2025-01-31T15:39:24-03:00"/>
           <total value="87"/>
           <offset value="0"/>
           <parameter>
@@ -1875,7 +1956,7 @@
           <contains>
             <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
             <code value="86"/>
-            <display value="Atención Integral de Salud en Agresión Sexual Aguda "/>
+            <display value="Atención Integral de Salud en Agresión Sexual Aguda"/>
           </contains>
           <contains>
             <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/>
@@ -1906,7 +1987,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-CSTipoDoc.html">codesystem Códigos de tipo de documento v0.1.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 5 concepts</p>
@@ -1928,7 +2009,7 @@
                   <a href="CodeSystem-CSTipoDoc.html#CSTipoDoc-1">1</a>
                 </td>
                 <td>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc</td>
-                <td>Solicitud de interconsulta	SIC</td>
+                <td>Solicitud de interconsulta SIC</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1971,7 +2052,7 @@
         <title value="Códigos de tipo de documento"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-11-28T09:34:47-03:00"/>
+        <date value="2025-01-31T15:38:22-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1980,8 +2061,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6c9ebea2-289b-468f-b567-016043da7623"/>
-          <timestamp value="2024-11-28T09:36:03-03:00"/>
+          <identifier value="urn:uuid:c8d5ab04-c3d9-4ed5-ab9b-ea50ae08d8ea"/>
+          <timestamp value="2025-01-31T15:39:25-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -2003,7 +2084,7 @@
           <contains>
             <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>
             <code value="1"/>
-            <display value="Solicitud de interconsulta&#x9;SIC"/>
+            <display value="Solicitud de interconsulta SIC"/>
           </contains>
           <contains>
             <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSTipoDoc"/>

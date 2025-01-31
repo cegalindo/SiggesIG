@@ -26,8 +26,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosProvinciasCL",
@@ -41,8 +41,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosRegionesCL",
@@ -56,8 +56,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesCL",
@@ -74,7 +74,7 @@
       ],
       "uses" : {
       },
-      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSSexoListadoDeis",
@@ -88,8 +88,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]",
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara",
@@ -103,7 +103,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-SolEndoscop.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop|0.1.0]"
+      "Questionnaire-SolEndoscop.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop|0.1.0]",
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSExamenes",
@@ -124,7 +125,21 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSMarca"],
       "uses" : {
       },
-      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSOpcionesCierre",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "VSOpcionesCierre",
+      "title" : "Códigos opciones para Cierre o Extensión",
+      "description" : "Codigos asociados para el cierre o la extención de garantía",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-CierreNotifSG.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CierreNotifSG|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrestacion",
@@ -138,8 +153,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
-      "Questionnaire-SolEndoscop.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop|0.1.0]"
+      "Questionnaire-SolEndoscop.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolEndoscop|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSPrevision",
@@ -151,7 +166,7 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSPrevision"],
       "uses" : {
       },
-      "Questionnaire-CreacionCaso.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CreacionCaso|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSProbSalud",
@@ -163,7 +178,9 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"],
       "uses" : {
       },
-      "Questionnaire-ProsDiag.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/ProsDiag|0.1.0]"
+      "Questionnaire-ProsDiag.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/ProsDiag|0.1.0]",
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]",
+      "Questionnaire-CierreNotifSG.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CierreNotifSG|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc",

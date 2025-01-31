@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSOpcionesCierre"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet VSOpcionesCierre</b></p><a name="VSOpcionesCierre"> </a><a name="hcVSOpcionesCierre"> </a><a name="VSOpcionesCierre-es-CL"> </a><ul><li>Include all codes defined in <a href="CodeSystem-CSOpcionesCierre.html"><code>https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre</code></a></li></ul></div>
+  </text>
+  <url value="https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSOpcionesCierre"/>
+  <version value="0.1.0"/>
+  <name value="VSOpcionesCierre"/>
+  <title value="Códigos opciones para Cierre o Extensión"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-01-31T15:38:22-03:00"/>
+  <publisher value="HL7 Chile"/>
+  <contact>
+    <name value="HL7 Chile"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hl7chile.cl"/>
+    </telecom>
+  </contact>
+  <description value="Codigos asociados para el cierre o la extención de garantía"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSOpcionesCierre"/>
+    </include>
+  </compose>
+</ValueSet>
