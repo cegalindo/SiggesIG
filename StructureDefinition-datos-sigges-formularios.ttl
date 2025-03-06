@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "DatosSigesCG"] ; # 
   fhir:title [ fhir:v "Datos de Notificación de Casos Siges"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-03-06T08:20:26-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-06T09:05:54-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;

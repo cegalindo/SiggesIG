@@ -1,48 +1,51 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <title>HL7.FHIR.CL.SIGESCG\Códigos de Problemas de Salud - XML Representation - FHIR v4.0.1</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="author" content="http://hl7.org/fhir"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="http://hl7.org/fhir" />
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet" />
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-    <link rel="stylesheet" href="assets/css/prism.css"/>   <!-- Placeholder for child template CSS declarations -->
-<link rel="stylesheet" href="assets/css/hl7chile.css"/>
-<script async="null" src="https://www.googletagmanager.com/gtag/js?id=G-HLBNC861DJ" type="text/javascript">
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet" />
+    <link href="assets/css/pygments-manni.css" rel="stylesheet" />
+    <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+    <link href="assets/css/prism.css" rel="stylesheet" /> <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7chile.css" rel="stylesheet" />
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-HLBNC861DJ" async>
 </script>
 
-    <script src="fhir-table-scripts.js" type="text/javascript">
+    <script type="text/javascript" src="fhir-table-scripts.js">
     </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
-    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png" />
+    <link rel="shortcut icon" href="assets/ico/favicon.png" />
 </head>
 
-  <!-- JORGE MANSILLA -->
-  <!-- Google tag (gtag.js) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
+<!-- JORGE MANSILLA -->
+<!-- Google tag (gtag.js) -->
+<!-- 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -52,8 +55,9 @@
     gtag('js', new Date());
 
     gtag('config', 'G-KDP1SHWXWT');
-</script> -->
-  <!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
+</script>
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -74,27 +78,29 @@
         }
     </style>
     <div id="segment-header" class="segment">
-          <!-- segment-header -->
+        <!-- segment-header -->
         <div class="container">
-              <!-- container -->
-              <!-- Placeholder for child template header declarations -->
+            <!-- container -->
+            <!-- Placeholder for child template header declarations -->
 
 <div id="project-nav">
-    <a no-external="true" id="FONASA-logo" href="http://Fonasa.cl">
-        <img src="assets/images/fonasa.png" alt="Visitar sitio FONASA" height="71"/>
+    <a id="FONASA-logo" no-external="true" href="http://Fonasa.cl">
+        <img height="71" alt="Visitar sitio FONASA" src="assets/images/fonasa.png" />
     </a>
 </div>
 <div id="project-nav">
-    <a no-external="true" id="HLF-logo" href="https://www.hospitallaflorida.cl/"><a name="l95">​</a>
-        <img src="assets/images/hlf2.jpg" alt="Visitar sitio Hospital de la Florida" height="60"/>
+    <a id="HLF-logo" no-external="true" href="https://www.hospitallaflorida.cl/">
+        <img height="60" alt="Visitar sitio Hospital de la Florida" src="assets/images/HLF2.jpg" />
     </a>
 </div>
 <div id="family-nav">
-    <a no-external="true" id="hl7chile-logo" href="http://hl7chile.cl"><img src="assets/images/hl7chile-logo.svg" alt="Visitar HL7 Chile" height="71"/> </a>
+    <a id="hl7chile-logo" no-external="true" href="http://hl7chile.cl"><img height="71" alt="Visitar HL7 Chile" src="assets/images/hl7chile-logo.svg" /> </a>
 </div>
-  <!-- <div id="hl7-search">
+<!--
+<div id="hl7-search">
   <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-</div> --> 
+</div>
+--> 
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Notificación de Caso GES</span>
                     <br/>
@@ -102,36 +108,36 @@
 
 
 
-  <img src="assets/images/chl.svg" alt="Chile flag" title="Chile" height="16"/>
+  <img alt="Chile flag" src="assets/images/chl.svg" height="16" title="Chile"/>
  
                     </span>
                 </p>
             </div>
         </div>
-          <!-- /container -->
+        <!-- /container -->
     </div>
-      <!-- /segment-header -->
+    <!-- /segment-header -->
 
     <div id="segment-navbar" class="segment">
-          <!-- segment-navbar -->
+        <!-- segment-navbar -->
         <div id="stripe"> </div>
         <div class="container">
-              <!-- container -->
-              <!-- HEADER CONTENT -->
+            <!-- container -->
+            <!-- HEADER CONTENT -->
 
             <nav class="navbar navbar-inverse">
-                  <!-- status-bar -->
+                <!--status-bar-->
                 <div class="container">
-                    <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                    <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-                    <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+                    <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
-                          <!-- menu.xml -->
+                        <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -140,39 +146,39 @@
   </li>
 </ul>
                     </div>
-                      <!-- /.nav-collapse -->
+                    <!-- /.nav-collapse -->
                 </div>
-                  <!-- /.container -->
+                <!-- /.container -->
             </nav>
-              <!-- /.navbar -->
-              <!-- /HEADER CONTENT -->
+            <!-- /.navbar -->
+            <!-- /HEADER CONTENT -->
         </div>
-          <!-- /container -->
+        <!-- /container -->
     </div>
-      <!-- /segment-navbar -->
-      <!-- status-bar -->
+    <!-- /segment-navbar -->
+    <!--status-bar-->
     
     <div id="segment-breadcrumb" class="segment">
-          <!-- segment-breadcrumb -->
+        <!-- segment-breadcrumb -->
         <div class="container">
-              <!-- container -->
+            <!-- container -->
             <ul class="breadcrumb">
-                <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Códigos de Problemas de Salud</b></li> 
+                <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Códigos de Problemas de Salud</b></li> 
             </ul>
         </div>
-          <!-- /container -->
+        <!-- /container -->
     </div>
-      <!-- /segment-breadcrumb -->
+    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
     <div id="segment-content" class="segment">
-          <!-- segment-content -->
+        <!-- segment-content -->
         <div class="container">
-              <!-- container -->
+            <!-- container -->
             <div class="row">
                 <div class="inner-wrapper">
 <div style="counter-reset: section 7" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">Notificación de Caso GES - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/sigescg/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+<!--ReleaseHeader--><p id="publish-box">Notificación de Caso GES - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/sigescg/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -236,469 +242,470 @@
   </table>
 
 
-<p><a href="CodeSystem-CSProbSalud.xml" no-download="true">Raw xml</a> | <a download="null" href="CodeSystem-CSProbSalud.xml">Download</a></p>
+<p><a href="CodeSystem-CSProbSalud.xml" no-download="true">Raw xml</a> | <a href="CodeSystem-CSProbSalud.xml" download>Download</a></p>
 
-    <!-- insert intro if present -->
+  <!-- insert intro if present -->
   
 
 
 
-  <pre style="white-space: pre; text-wrap: nowrap; width: auto;" class="xml"><code style="white-space: pre; text-wrap: nowrap;">
-&lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a> xmlns="http://hl7.org/fhir"&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CSProbSalud"/&gt;
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CSProbSalud&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: CodeSystem CSProbSalud&lt;/b&gt;&lt;/p&gt;&lt;a name="CSProbSalud"&gt; &lt;/a&gt;&lt;a name="hcCSProbSalud"&gt; &lt;/a&gt;&lt;a name="CSProbSalud-es-CL"&gt; &lt;/a&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class="codes"&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;1&lt;a name="CSProbSalud-1"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;2&lt;a name="CSProbSalud-2"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ardiopatías Congénitas Operables en Personas Menores de 15 Años&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;3&lt;a name="CSProbSalud-3"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ÁNCER CERVICOUTERINO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;4&lt;a name="CSProbSalud-4"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;5&lt;a name="CSProbSalud-5"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NFARTO AGUDO DEL MIOCARDIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;6&lt;a name="CSProbSalud-6"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IABETES MELLITUS TIPO 1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;7&lt;a name="CSProbSalud-7"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IABETES MELLITUS TIPO 2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;8&lt;a name="CSProbSalud-8"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;9&lt;a name="CSProbSalud-9"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ISRAFIAS ESPINALES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;10&lt;a name="CSProbSalud-10"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;11&lt;a name="CSProbSalud-11"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO DE CATARATAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;12&lt;a name="CSProbSalud-12"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;13&lt;a name="CSProbSalud-13"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FISURA LABIOPALATINA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;14&lt;a name="CSProbSalud-14"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER EN MENORES DE 15 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;15&lt;a name="CSProbSalud-15"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESQUIZOFRENIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;16&lt;a name="CSProbSalud-16"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;17&lt;a name="CSProbSalud-17"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;18&lt;a name="CSProbSalud-18"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;19&lt;a name="CSProbSalud-19"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;20&lt;a name="CSProbSalud-20"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;21&lt;a name="CSProbSalud-21"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;22&lt;a name="CSProbSalud-22"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;23&lt;a name="CSProbSalud-23"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;24&lt;a name="CSProbSalud-24"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PREVENCIÓN DE PARTO PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;25&lt;a name="CSProbSalud-25"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;26&lt;a name="CSProbSalud-26"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;27&lt;a name="CSProbSalud-27"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER GÁSTRICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;28&lt;a name="CSProbSalud-28"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;29&lt;a name="CSProbSalud-29"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;30&lt;a name="CSProbSalud-30"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESTRABISMO EN MENORES DE 9 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;31&lt;a name="CSProbSalud-31"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RETINOPATÍA DIABÉTICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;32&lt;a name="CSProbSalud-32"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;33&lt;a name="CSProbSalud-33"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HEMOFILIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;34&lt;a name="CSProbSalud-34"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;35&lt;a name="CSProbSalud-35"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;36&lt;a name="CSProbSalud-36"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ayudas técnicas para personas de 65 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;37&lt;a name="CSProbSalud-37"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ataque Cerebrovascular Isquémico  en personas de 15 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;38&lt;a name="CSProbSalud-38"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;39&lt;a name="CSProbSalud-39"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;40&lt;a name="CSProbSalud-40"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;41&lt;a name="CSProbSalud-41"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;42&lt;a name="CSProbSalud-42"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;43&lt;a name="CSProbSalud-43"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;44&lt;a name="CSProbSalud-44"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;45&lt;a name="CSProbSalud-45"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;47&lt;a name="CSProbSalud-47"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;48&lt;a name="CSProbSalud-48"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POLITRAUMATIZADO GRAVE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;49&lt;a name="CSProbSalud-49"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;50&lt;a name="CSProbSalud-50"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRAUMA OCULAR GRAVE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;51&lt;a name="CSProbSalud-51"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FIBROSIS QUÍSTICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;52&lt;a name="CSProbSalud-52"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARTRITIS REUMATOIDEA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;53&lt;a name="CSProbSalud-53"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;54&lt;a name="CSProbSalud-54"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANALGESIA DEL PARTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;55&lt;a name="CSProbSalud-55"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GRAN QUEMADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;56&lt;a name="CSProbSalud-56"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;57&lt;a name="CSProbSalud-57"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RETINOPATÍA DEL PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;58&lt;a name="CSProbSalud-58"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DISPLASIA BRONCOPULMONAR DEL PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;59&lt;a name="CSProbSalud-59"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;60&lt;a name="CSProbSalud-60"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;61&lt;a name="CSProbSalud-61"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;62&lt;a name="CSProbSalud-62"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENFERMEDAD DE PARKINSON&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;63&lt;a name="CSProbSalud-63"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARTRITIS IDIOPÁTICA JUVENIL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;64&lt;a name="CSProbSalud-64"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;65&lt;a name="CSProbSalud-65"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DISPLASIA LUXANTE DE CADERAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;66&lt;a name="CSProbSalud-66"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SALUD ORAL INTEGRAL DE LA EMBARAZADA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;67&lt;a name="CSProbSalud-67"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;68&lt;a name="CSProbSalud-68"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HEPATITIS B&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;69&lt;a name="CSProbSalud-69"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hepatitis Crónica por Virus Hepatitis C&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;78&lt;a name="CSProbSalud-78"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LUPUS ERITEMATOSO SISTÉMICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;75&lt;a name="CSProbSalud-75"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Trastorno Bipolar 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;72&lt;a name="CSProbSalud-72"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer Vesical 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;80&lt;a name="CSProbSalud-80"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;73&lt;a name="CSProbSalud-73"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Osteosarcoma 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;71&lt;a name="CSProbSalud-71"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer de Ovario Epitelial&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;76&lt;a name="CSProbSalud-76"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hipotiroidismo en Personas de 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;70&lt;a name="CSProbSalud-70"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer Colorectal 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;74&lt;a name="CSProbSalud-74"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;79&lt;a name="CSProbSalud-79"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;77&lt;a name="CSProbSalud-77"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;46&lt;a name="CSProbSalud-46"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urgencia Odontológica Ambulatoria&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;85&lt;a name="CSProbSalud-85"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;81&lt;a name="CSProbSalud-81"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer de Pulmón en Personas de 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;82&lt;a name="CSProbSalud-82"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer de Tiroides en personas de 15 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;86&lt;a name="CSProbSalud-86"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atención Integral de Salud en Agresión Sexual Aguda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;83&lt;a name="CSProbSalud-83"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer Renal en personas de 15 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;84&lt;a name="CSProbSalud-84"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="white-space:nowrap"&gt;87&lt;a name="CSProbSalud-87"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rehabilitación SARS COV-2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem CSProbSalud&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;CSProbSalud&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcCSProbSalud&quot;&gt; &lt;/a&gt;&lt;a name=&quot;CSProbSalud-es-CL&quot;&gt; &lt;/a&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;1&lt;a name=&quot;CSProbSalud-1&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;2&lt;a name=&quot;CSProbSalud-2&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ardiopatías Congénitas Operables en Personas Menores de 15 Años&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;3&lt;a name=&quot;CSProbSalud-3&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ÁNCER CERVICOUTERINO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;4&lt;a name=&quot;CSProbSalud-4&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;5&lt;a name=&quot;CSProbSalud-5&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NFARTO AGUDO DEL MIOCARDIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;6&lt;a name=&quot;CSProbSalud-6&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IABETES MELLITUS TIPO 1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;7&lt;a name=&quot;CSProbSalud-7&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;IABETES MELLITUS TIPO 2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;8&lt;a name=&quot;CSProbSalud-8&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;9&lt;a name=&quot;CSProbSalud-9&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ISRAFIAS ESPINALES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;10&lt;a name=&quot;CSProbSalud-10&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;11&lt;a name=&quot;CSProbSalud-11&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO DE CATARATAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;12&lt;a name=&quot;CSProbSalud-12&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;13&lt;a name=&quot;CSProbSalud-13&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FISURA LABIOPALATINA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;14&lt;a name=&quot;CSProbSalud-14&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER EN MENORES DE 15 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;15&lt;a name=&quot;CSProbSalud-15&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESQUIZOFRENIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;16&lt;a name=&quot;CSProbSalud-16&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;17&lt;a name=&quot;CSProbSalud-17&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;18&lt;a name=&quot;CSProbSalud-18&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;19&lt;a name=&quot;CSProbSalud-19&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;20&lt;a name=&quot;CSProbSalud-20&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;21&lt;a name=&quot;CSProbSalud-21&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;22&lt;a name=&quot;CSProbSalud-22&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;23&lt;a name=&quot;CSProbSalud-23&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;24&lt;a name=&quot;CSProbSalud-24&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PREVENCIÓN DE PARTO PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;25&lt;a name=&quot;CSProbSalud-25&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;26&lt;a name=&quot;CSProbSalud-26&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;27&lt;a name=&quot;CSProbSalud-27&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER GÁSTRICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;28&lt;a name=&quot;CSProbSalud-28&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;29&lt;a name=&quot;CSProbSalud-29&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;30&lt;a name=&quot;CSProbSalud-30&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESTRABISMO EN MENORES DE 9 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;31&lt;a name=&quot;CSProbSalud-31&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RETINOPATÍA DIABÉTICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;32&lt;a name=&quot;CSProbSalud-32&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;33&lt;a name=&quot;CSProbSalud-33&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HEMOFILIA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;34&lt;a name=&quot;CSProbSalud-34&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;35&lt;a name=&quot;CSProbSalud-35&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;36&lt;a name=&quot;CSProbSalud-36&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ayudas técnicas para personas de 65 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;37&lt;a name=&quot;CSProbSalud-37&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ataque Cerebrovascular Isquémico  en personas de 15 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;38&lt;a name=&quot;CSProbSalud-38&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;39&lt;a name=&quot;CSProbSalud-39&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;40&lt;a name=&quot;CSProbSalud-40&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;41&lt;a name=&quot;CSProbSalud-41&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;42&lt;a name=&quot;CSProbSalud-42&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;43&lt;a name=&quot;CSProbSalud-43&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;44&lt;a name=&quot;CSProbSalud-44&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;45&lt;a name=&quot;CSProbSalud-45&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;47&lt;a name=&quot;CSProbSalud-47&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;48&lt;a name=&quot;CSProbSalud-48&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;POLITRAUMATIZADO GRAVE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;49&lt;a name=&quot;CSProbSalud-49&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;50&lt;a name=&quot;CSProbSalud-50&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRAUMA OCULAR GRAVE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;51&lt;a name=&quot;CSProbSalud-51&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FIBROSIS QUÍSTICA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;52&lt;a name=&quot;CSProbSalud-52&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARTRITIS REUMATOIDEA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;53&lt;a name=&quot;CSProbSalud-53&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;54&lt;a name=&quot;CSProbSalud-54&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ANALGESIA DEL PARTO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;55&lt;a name=&quot;CSProbSalud-55&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GRAN QUEMADO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;56&lt;a name=&quot;CSProbSalud-56&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;57&lt;a name=&quot;CSProbSalud-57&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;RETINOPATÍA DEL PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;58&lt;a name=&quot;CSProbSalud-58&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DISPLASIA BRONCOPULMONAR DEL PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;59&lt;a name=&quot;CSProbSalud-59&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;60&lt;a name=&quot;CSProbSalud-60&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;61&lt;a name=&quot;CSProbSalud-61&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;62&lt;a name=&quot;CSProbSalud-62&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENFERMEDAD DE PARKINSON&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;63&lt;a name=&quot;CSProbSalud-63&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ARTRITIS IDIOPÁTICA JUVENIL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;64&lt;a name=&quot;CSProbSalud-64&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;65&lt;a name=&quot;CSProbSalud-65&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;DISPLASIA LUXANTE DE CADERAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;66&lt;a name=&quot;CSProbSalud-66&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SALUD ORAL INTEGRAL DE LA EMBARAZADA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;67&lt;a name=&quot;CSProbSalud-67&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;68&lt;a name=&quot;CSProbSalud-68&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;HEPATITIS B&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;69&lt;a name=&quot;CSProbSalud-69&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hepatitis Crónica por Virus Hepatitis C&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;78&lt;a name=&quot;CSProbSalud-78&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;LUPUS ERITEMATOSO SISTÉMICO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;75&lt;a name=&quot;CSProbSalud-75&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Trastorno Bipolar 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;72&lt;a name=&quot;CSProbSalud-72&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer Vesical 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;80&lt;a name=&quot;CSProbSalud-80&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;73&lt;a name=&quot;CSProbSalud-73&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Osteosarcoma 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;71&lt;a name=&quot;CSProbSalud-71&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer de Ovario Epitelial&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;76&lt;a name=&quot;CSProbSalud-76&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hipotiroidismo en Personas de 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;70&lt;a name=&quot;CSProbSalud-70&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer Colorectal 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;74&lt;a name=&quot;CSProbSalud-74&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;79&lt;a name=&quot;CSProbSalud-79&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;77&lt;a name=&quot;CSProbSalud-77&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;46&lt;a name=&quot;CSProbSalud-46&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urgencia Odontológica Ambulatoria&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;85&lt;a name=&quot;CSProbSalud-85&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;81&lt;a name=&quot;CSProbSalud-81&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer de Pulmón en Personas de 15 Años y Más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;82&lt;a name=&quot;CSProbSalud-82&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer de Tiroides en personas de 15 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;86&lt;a name=&quot;CSProbSalud-86&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Atención Integral de Salud en Agresión Sexual Aguda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;83&lt;a name=&quot;CSProbSalud-83&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cáncer Renal en personas de 15 años y más&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;84&lt;a name=&quot;CSProbSalud-84&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;87&lt;a name=&quot;CSProbSalud-87&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rehabilitación SARS COV-2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="0.1.0"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CSProbSalud"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Códigos de Problemas de Salud"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2025-03-06T08:20:26-03:00"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HL7 Chile"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CSProbSalud&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Códigos de Problemas de Salud&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-03-06T09:05:54-03:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HL7 Chile&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HL7 Chile"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HL7 Chile&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="url"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="https://hl7chile.cl"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;https://hl7chile.cl&quot;/&gt;
     &lt;/telecom&gt;
   &lt;/contact&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Codigos para problemas de salud de paciente"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Codigos para problemas de salud de paciente&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:iso:std:iso:3166"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="CL"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Chile"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Chile&quot;/&gt;
     &lt;/coding&gt;
   &lt;/jurisdiction&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="true"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="complete"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>="87"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;87&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="1"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NFERMEDAD RENAL CRÓNICA ETAPA 4 Y 5&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="2"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ardiopatías Congénitas Operables en Personas Menores de 15 Años"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ardiopatías Congénitas Operables en Personas Menores de 15 Años&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="3"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ÁNCER CERVICOUTERINO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;3&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ÁNCER CERVICOUTERINO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="4"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;LIVIO DEL DOLOR POR CÁNCER AVANZADO Y CUIDADOS PALIATIVOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="5"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="NFARTO AGUDO DEL MIOCARDIO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;5&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NFARTO AGUDO DEL MIOCARDIO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="6"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="IABETES MELLITUS TIPO 1"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;6&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;IABETES MELLITUS TIPO 1&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="7"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="IABETES MELLITUS TIPO 2"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;7&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;IABETES MELLITUS TIPO 2&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="8"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;8&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ÁNCER DE MAMA EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="9"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ISRAFIAS ESPINALES"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;9&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ISRAFIAS ESPINALES&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="10"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;10&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO QUIRÚRGICO DE ESCOLIOSIS EN MENORES DE 25 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="11"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO QUIRÚRGICO DE CATARATAS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;11&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO QUIRÚRGICO DE CATARATAS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="12"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;12&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ENDOPROTESIS TOTAL DE CADERA EN PERSONAS DE 65 AÑOS Y MÁS CON ARTROSIS DE CADERA CON LIMITACIÓN FUNCIONAL SEVERA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="13"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="FISURA LABIOPALATINA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;13&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FISURA LABIOPALATINA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="14"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CÁNCER EN MENORES DE 15 AÑOS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;14&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CÁNCER EN MENORES DE 15 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="15"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ESQUIZOFRENIA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;15&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ESQUIZOFRENIA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="16"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;16&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CÁNCER DE TESTÍCULO EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="17"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;17&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;LINFOMAS EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="18"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;18&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;SÍNDROME DE LA INMUNODEFICIENCIA ADQUIRIDA VIH/SIDA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="19"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;19&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;INFECCIÓN RESPIRATORIA AGUDA (IRA) BAJA DE MANEJO AMBULATORIO EN MENORES DE 5 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="20"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;20&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NEUMONIA ADQUIRIDA EN LA COMUNIDAD DE MANEJO AMBULATORIO EN PERSONAS DE 65 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="21"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;21&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIPERTENSIÓN ARTERIAL PRIMARIA O ESENCIAL EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="22"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;22&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;EPILEPSIA NO REFRACTARIA EN PERSONAS DESDE 1 AÑO Y MENORES DE 15 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="23"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;23&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;SALUD ORAL INTEGRAL PARA NIÑOS DE 6 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="24"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="PREVENCIÓN DE PARTO PREMATURO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;24&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;PREVENCIÓN DE PARTO PREMATURO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="25"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;25&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO."/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRASTORNOS DE GENERACIÓN DEL IMPULSO Y CONDUCCIÓN EN PERSONAS DE 15 AÑOS Y MÁS, QUE REQUIEREN MARCAPASO.&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="26"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;26&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;COLECISTECTOMÍA PREVENTIVA DEL CÁNCER DE VESÍCULA EN PERSONAS DE 35 A 49 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="27"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CÁNCER GÁSTRICO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;27&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CÁNCER GÁSTRICO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="28"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;28&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CÁNCER DE PRÓSTATA EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="29"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;29&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;VICIOS DE REFRACCIÓN EN PERSONAS DE 65 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="30"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ESTRABISMO EN MENORES DE 9 AÑOS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;30&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ESTRABISMO EN MENORES DE 9 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="31"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="RETINOPATÍA DIABÉTICA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;31&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;RETINOPATÍA DIABÉTICA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="32"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO."/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;32&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DESPRENDIMIENTO DE RETINA REGMATÓGENO NO TRAUMÁTICO.&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="33"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HEMOFILIA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;33&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HEMOFILIA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="34"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;34&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DEPRESIÓN EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="35"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;35&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO QUIRURGICO DE LA HIPERPLASIA BENIGNA DE LA PRÓSTATA EN PERSONAS SINTOMÁTICAS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="36"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ayudas técnicas para personas de 65 años y más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;36&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ayudas técnicas para personas de 65 años y más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="37"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;37&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Ataque Cerebrovascular Isquémico  en personas de 15 años y más"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ataque Cerebrovascular Isquémico  en personas de 15 años y más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="38"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;38&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA DE TRATAMIENTO AMBULATORIO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="39"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;39&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ASMA BRONQUIAL MODERADA Y GRAVE EN MENORES DE 15 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="40"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;40&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;SÍNDROME DE DIFICULTAD RESPIRATORIA EN EL RECIÉN NACIDO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="41"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;41&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO MÉDICO EN PERSONAS DE 55 AÑOS Y MÁS CON ARTROSIS DE CADERA Y/O RODILLA, LEVE O MODERADA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="42"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;42&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HEMORRAGIA SUBARACNOIDEA SECUNDARIA A RUPTURA DE ANEURISMAS CEREBRALES&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="43"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;43&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TUMORES PRIMARIOS DEL SISTEMA NERVIOSO CENTRAL EN PERSONAS DE 15 AÑOS O MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="44"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;44&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO QUIRÚRGICO DE HERNIA DEL NÚCLEO PULPOSO LUMBAR&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="45"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;45&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;LEUCEMIA EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="47"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;47&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;SALUD ORAL INTEGRAL DEL ADULTO DE 60 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="48"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="POLITRAUMATIZADO GRAVE"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;48&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;POLITRAUMATIZADO GRAVE&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="49"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;49&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRAUMATISMO CRÁNEO ENCEFÁLICO MODERADO O GRAVE&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="50"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRAUMA OCULAR GRAVE"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;50&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRAUMA OCULAR GRAVE&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="51"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="FIBROSIS QUÍSTICA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;51&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FIBROSIS QUÍSTICA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="52"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ARTRITIS REUMATOIDEA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;52&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ARTRITIS REUMATOIDEA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="53"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;53&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CONSUMO PERJUDICIAL O DEPENDENCIA DE RIESGO BAJO A MODERADO DE ALCOHOL Y DROGAS EN PERSONAS MENORES DE 20 AÑOS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="54"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ANALGESIA DEL PARTO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;54&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ANALGESIA DEL PARTO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="55"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="GRAN QUEMADO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;55&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GRAN QUEMADO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="56"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;56&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIPOACUSIA BILATERAL EN PERSONAS DE 65 AÑOS Y MÁS QUE REQUIEREN USO DE AUDÍFONO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="57"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="RETINOPATÍA DEL PREMATURO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;57&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;RETINOPATÍA DEL PREMATURO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="58"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="DISPLASIA BRONCOPULMONAR DEL PREMATURO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;58&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DISPLASIA BRONCOPULMONAR DEL PREMATURO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="59"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;59&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIPOACUSIA NEUROSENSORIAL BILATERAL DEL PREMATURO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="60"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;60&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;EPILEPSIA NO REFRACTARIA EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="61"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;61&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ASMA BRONQUIAL EN PERSONAS DE 15 AÑOS Y&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="62"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ENFERMEDAD DE PARKINSON"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;62&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ENFERMEDAD DE PARKINSON&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="63"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ARTRITIS IDIOPÁTICA JUVENIL"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;63&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ARTRITIS IDIOPÁTICA JUVENIL&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="64"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;64&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;PREVENCION SECUNDARIA INSUFICIENCIA RENAL CRONICA TERMINAL&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="65"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="DISPLASIA LUXANTE DE CADERAS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;65&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;DISPLASIA LUXANTE DE CADERAS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="66"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="SALUD ORAL INTEGRAL DE LA EMBARAZADA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;66&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;SALUD ORAL INTEGRAL DE LA EMBARAZADA&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="67"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;67&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ESCLEROSIS MÚLTIPLE RECURRENTE REMITENTE&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="68"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="HEPATITIS B"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;68&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HEPATITIS B&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="69"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Hepatitis Crónica por Virus Hepatitis C"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;69&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hepatitis Crónica por Virus Hepatitis C&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="78"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="LUPUS ERITEMATOSO SISTÉMICO"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;78&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;LUPUS ERITEMATOSO SISTÉMICO&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="75"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Trastorno Bipolar 15 Años y Más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;75&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Trastorno Bipolar 15 Años y Más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="72"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Cáncer Vesical 15 Años y Más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;72&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cáncer Vesical 15 Años y Más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="80"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;80&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO ERRADICACIÓN HELICOBACTER PYLORI&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="73"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Osteosarcoma 15 Años y Más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;73&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Osteosarcoma 15 Años y Más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="71"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Cáncer de Ovario Epitelial"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;71&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cáncer de Ovario Epitelial&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="76"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Hipotiroidismo en Personas de 15 Años y Más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;76&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hipotiroidismo en Personas de 15 Años y Más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="70"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Cáncer Colorectal 15 Años y Más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;70&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cáncer Colorectal 15 Años y Más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="74"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;74&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO QUIRÚRGICO VÁLVULA AÓRTICA 15 Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="79"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;79&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TRATAMIENTO QUIRÚRGICO VÁLVULA MITRAL Y TRICÚSPIDE 15 Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="77"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;77&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Tratamiento de Hipoacusia Moderada, Severa y Profunda en personas Menores de 4 Años&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="46"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Urgencia Odontológica Ambulatoria"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;46&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Urgencia Odontológica Ambulatoria&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="85"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;85&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ENFERMEDAD DE ALZHEIMER Y OTRAS DEMENCIAS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="81"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Cáncer de Pulmón en Personas de 15 Años y Más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;81&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cáncer de Pulmón en Personas de 15 Años y Más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="82"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Cáncer de Tiroides en personas de 15 años y más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;82&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cáncer de Tiroides en personas de 15 años y más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="86"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Atención Integral de Salud en Agresión Sexual Aguda"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;86&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Atención Integral de Salud en Agresión Sexual Aguda&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="83"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Cáncer Renal en personas de 15 años y más"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;83&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cáncer Renal en personas de 15 años y más&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="84"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;84&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MIELOMA MÚLTIPLE EN PERSONAS DE 15 AÑOS Y MÁS&quot;/&gt;
   &lt;/concept&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="87"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Rehabilitación SARS COV-2"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;87&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rehabilitación SARS COV-2&quot;/&gt;
   &lt;/concept&gt;
 &lt;/CodeSystem&gt;</code></pre>
 
 
-    <!-- insert notes if present -->
+  <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.sigescg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 6, 2025 08:20-0300">2025-03-06</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.sigescg#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 6, 2025 09:05-0300">2025-03-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">Reporte QA</a> |
-<a style="color: var(--footer-hyperlink-text-color)" href="https://hl7chile.cl/fhir/ig/sigescg/history.html" target="_blank">Historial de versiones</a>
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://hl7chile.cl/fhir/ig/sigescg/history.html">Historial de versiones</a></a>
 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-    <!-- Analytics Below
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

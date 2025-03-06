@@ -1,7 +1,7 @@
 {
   "version" : "0.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20250306081851",
+  "date" : "20250306090446",
   "name" : "hl7.fhir.cl.sigescg",
   "jurisdiction" : "urn:iso:std:iso:3166#CL"
 }
