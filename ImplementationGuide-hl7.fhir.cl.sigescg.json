@@ -3,13 +3,14 @@
   "id" : "hl7.fhir.cl.sigescg",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.cl.sigescg</b></p><a name=\"hl7.fhir.cl.sigescg\"> </a><a name=\"hchl7.fhir.cl.sigescg\"> </a><a name=\"hl7.fhir.cl.sigescg-es-CL\"> </a><h2>sigescg</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7chile.cl/fhir/ig/sigescg/ImplementationGuide/hl7.fhir.cl.sigescg</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.cl.sigescg</b></p><a name=\"hl7.fhir.cl.sigescg\"> </a><a name=\"hchl7.fhir.cl.sigescg\"> </a><a name=\"hl7.fhir.cl.sigescg-es-CL\"> </a><h2>sigescg</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7chile.cl/fhir/ig/sigescg/ImplementationGuide/hl7.fhir.cl.sigescg</pre><div><p>Esta Guía de Implementación, emula en formularos el proceso de seguimiento de casos GES (en principio Cáncer Gástrico) entre prestadores de salud y FONASA</p>\n</div></div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/sigescg/ImplementationGuide/hl7.fhir.cl.sigescg",
   "version" : "0.1.0",
   "name" : "sigescg",
+  "title" : "Notificación de Caso GES",
   "status" : "draft",
-  "date" : "2025-01-31T15:38:22-03:00",
+  "date" : "2025-03-06T08:20:26-03:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -18,6 +19,7 @@
       "value" : "https://hl7chile.cl"
     }]
   }],
+  "description" : "Esta Guía de Implementación, emula en formularos el proceso de seguimiento de casos GES (en principio Cáncer Gástrico) entre prestadores de salud y FONASA",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -46,7 +48,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.1.0"
+    "version" : "5.2.0"
   },
   {
     "id" : "hl7_fhir_cl_clcore",
@@ -855,7 +857,7 @@
         "valueString" : "QuestionnaireResponse"
       }],
       "reference" : {
-        "reference" : "QuestionnaireResponse/SolicitudInter"
+        "reference" : "QuestionnaireResponse/Caso1"
       },
       "name" : "Ejemplo formulario de Solicitud de Interconsulta",
       "description" : "Ejemplo de datos para la solicitud de una interconsulta  (Caso 1)",

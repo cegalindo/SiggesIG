@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "dc070190-86df-4dad-b990-93264ad4f02a",
+  "id" : "dfc5bfb6-06cb-4a91-a2cc-e93f815c180e",
   "meta" : {
-    "lastUpdated" : "2025-01-31T15:38:22.088-03:00"
+    "lastUpdated" : "2025-03-06T08:20:26.618-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Códigos asociados a la derivación",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ee34be91-48ee-4a9c-98d6-21ff1a0a56ff",
-        "timestamp" : "2025-01-31T15:39:22-03:00",
+        "identifier" : "urn:uuid:39ae6e77-c6aa-4aa1-be2f-754822cec54f",
+        "timestamp" : "2025-03-06T08:21:40-03:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -110,7 +110,7 @@
       "title" : "Códigos de  Exámenes",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -119,8 +119,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:64d9291d-4d92-4660-a8c7-505e7ff04514",
-        "timestamp" : "2025-01-31T15:39:23-03:00",
+        "identifier" : "urn:uuid:bf968551-ab1a-484d-92d3-077263d75289",
+        "timestamp" : "2025-03-06T08:21:41-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -171,7 +171,7 @@
       "title" : "Códigos de  Marca",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -180,8 +180,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0bb26da4-b454-46c4-b012-2ea2f6217a55",
-        "timestamp" : "2025-01-31T15:39:23-03:00",
+        "identifier" : "urn:uuid:556091e5-02a8-455a-90c2-a73a7d57ff37",
+        "timestamp" : "2025-03-06T08:21:42-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -242,7 +242,7 @@
       "title" : "Códigos opciones para Cierre o Extensión",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -251,8 +251,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f0e0af97-1ff4-4740-b2be-908728011d6e",
-        "timestamp" : "2025-01-31T15:39:23-03:00",
+        "identifier" : "urn:uuid:d5eca0ba-73dd-434d-8bb3-f8780fbe4017",
+        "timestamp" : "2025-03-06T08:21:43-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -303,7 +303,7 @@
       "title" : "Códigos de prestaciones",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -312,8 +312,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e46f55e4-29df-49bc-9c9a-515c4212355a",
-        "timestamp" : "2025-01-31T15:39:24-03:00",
+        "identifier" : "urn:uuid:e8f2aa81-8491-428a-b33b-2bd18ec450e1",
+        "timestamp" : "2025-03-06T08:21:43-03:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -354,7 +354,7 @@
       "title" : "VS Prevision",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -363,8 +363,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c9bc0f63-f94d-42c5-86d3-0f22fee5a858",
-        "timestamp" : "2025-01-31T15:39:24-03:00",
+        "identifier" : "urn:uuid:dace06cb-a7e4-4699-b866-b9374b900868",
+        "timestamp" : "2025-03-06T08:21:43-03:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -435,7 +435,7 @@
       "title" : "Códigos Problemas de Salud",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -444,8 +444,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dce8b52f-ca4f-4ab1-8736-7fb953d733b4",
-        "timestamp" : "2025-01-31T15:39:24-03:00",
+        "identifier" : "urn:uuid:2bad27bd-0ab4-4314-8c93-1b6af5d41623",
+        "timestamp" : "2025-03-06T08:21:43-03:00",
         "total" : 87,
         "offset" : 0,
         "parameter" : [{
@@ -916,7 +916,7 @@
       "title" : "Códigos de tipo de documento",
       "status" : "active",
       "experimental" : false,
-      "date" : "2025-01-31T15:38:22-03:00",
+      "date" : "2025-03-06T08:20:26-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -925,8 +925,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c8d5ab04-c3d9-4ed5-ab9b-ea50ae08d8ea",
-        "timestamp" : "2025-01-31T15:39:25-03:00",
+        "identifier" : "urn:uuid:77c2c762-4071-4713-9980-55bcce9aa750",
+        "timestamp" : "2025-03-06T08:21:44-03:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{

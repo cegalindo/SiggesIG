@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="dc070190-86df-4dad-b990-93264ad4f02a"/>
+  <id value="dfc5bfb6-06cb-4a91-a2cc-e93f815c180e"/>
   <meta>
-    <lastUpdated value="2025-01-31T15:38:22.088-03:00"/>
+    <lastUpdated value="2025-03-06T08:20:26.618-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -113,7 +113,7 @@
         <title value="Códigos asociados a la derivación"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -122,8 +122,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ee34be91-48ee-4a9c-98d6-21ff1a0a56ff"/>
-          <timestamp value="2025-01-31T15:39:22-03:00"/>
+          <identifier value="urn:uuid:39ae6e77-c6aa-4aa1-be2f-754822cec54f"/>
+          <timestamp value="2025-03-06T08:21:40-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -250,7 +250,7 @@
         <title value="Códigos de  Exámenes"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -259,8 +259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:64d9291d-4d92-4660-a8c7-505e7ff04514"/>
-          <timestamp value="2025-01-31T15:39:23-03:00"/>
+          <identifier value="urn:uuid:bf968551-ab1a-484d-92d3-077263d75289"/>
+          <timestamp value="2025-03-06T08:21:41-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -373,7 +373,7 @@
         <title value="Códigos de  Marca"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -382,8 +382,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0bb26da4-b454-46c4-b012-2ea2f6217a55"/>
-          <timestamp value="2025-01-31T15:39:23-03:00"/>
+          <identifier value="urn:uuid:556091e5-02a8-455a-90c2-a73a7d57ff37"/>
+          <timestamp value="2025-03-06T08:21:42-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -490,7 +490,7 @@
         <title value="Códigos opciones para Cierre o Extensión"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -499,8 +499,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f0e0af97-1ff4-4740-b2be-908728011d6e"/>
-          <timestamp value="2025-01-31T15:39:23-03:00"/>
+          <identifier value="urn:uuid:d5eca0ba-73dd-434d-8bb3-f8780fbe4017"/>
+          <timestamp value="2025-03-06T08:21:43-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -581,7 +581,7 @@
         <title value="Códigos de prestaciones"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -590,8 +590,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e46f55e4-29df-49bc-9c9a-515c4212355a"/>
-          <timestamp value="2025-01-31T15:39:24-03:00"/>
+          <identifier value="urn:uuid:e8f2aa81-8491-428a-b33b-2bd18ec450e1"/>
+          <timestamp value="2025-03-06T08:21:43-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -710,7 +710,7 @@
         <title value="VS Prevision"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -719,8 +719,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c9bc0f63-f94d-42c5-86d3-0f22fee5a858"/>
-          <timestamp value="2025-01-31T15:39:24-03:00"/>
+          <identifier value="urn:uuid:dace06cb-a7e4-4699-b866-b9374b900868"/>
+          <timestamp value="2025-03-06T08:21:43-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -1509,7 +1509,7 @@
         <title value="Códigos Problemas de Salud"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1518,8 +1518,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dce8b52f-ca4f-4ab1-8736-7fb953d733b4"/>
-          <timestamp value="2025-01-31T15:39:24-03:00"/>
+          <identifier value="urn:uuid:2bad27bd-0ab4-4314-8c93-1b6af5d41623"/>
+          <timestamp value="2025-03-06T08:21:43-03:00"/>
           <total value="87"/>
           <offset value="0"/>
           <parameter>
@@ -2052,7 +2052,7 @@
         <title value="Códigos de tipo de documento"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2025-01-31T15:38:22-03:00"/>
+        <date value="2025-03-06T08:20:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2061,8 +2061,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c8d5ab04-c3d9-4ed5-ab9b-ea50ae08d8ea"/>
-          <timestamp value="2025-01-31T15:39:25-03:00"/>
+          <identifier value="urn:uuid:77c2c762-4071-4713-9980-55bcce9aa750"/>
+          <timestamp value="2025-03-06T08:21:44-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>

@@ -1,10 +1,10 @@
 sigescg : Validation Results
 =========================================
 
-err = 8, warn = 9, info = 9
+err = 0, warn = 1, info = 6
 $--
 Generated $--. FHIR version $-- for hl7.fhir.cl.sigescg#$-- (canonical = https://hl7chile.cl/fhir/ig/sigescg)
- Build Errors : 0 / 4 / 0
+ Build Errors : 171 / 0 / 0
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSDerivadoPara : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSExamenes : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSMarca : 0 / 0 / 1
@@ -14,18 +14,18 @@ Generated $--. FHIR version $-- for hl7.fhir.cl.sigescg#$-- (canonical = https:/
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSProbSalud : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\CodeSystem-CSTipoDoc : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.sigescg : 0 / 1 / 1
- C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-CierreNotifSG : 0 / 1 / 2
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-CierreNotifSG : 0 / 0 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-NotiAtenEsp : 0 / 0 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-ProsDiag : 0 / 0 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-SolEndoscop : 0 / 0 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\Questionnaire-SolicitudI : 0 / 0 / 2
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso2 : 1 / 0 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso1 : 0 / 0 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso2 : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso3 : 0 / 0 / 1
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso4 : 2 / 0 / 2
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso5 : 0 / 1 / 2
- C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-SolicitudInter : 5 / 0 / 3
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso4 : 0 / 0 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\QuestionnaireResponse-Caso5 : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\StructureDefinition-TipoDoc : 0 / 0 / 1
- C:\GI_FHIR\SigesCG\fsh-generated\resources\StructureDefinition-datos-sigges-formularios : 0 / 2 / 1
+ C:\GI_FHIR\SigesCG\fsh-generated\resources\StructureDefinition-datos-sigges-formularios : 0 / 0 / 2
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSDerivadoPara : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSExamenes : 0 / 0 / 1
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSMArca : 0 / 0 / 1
@@ -36,10 +36,177 @@ Generated $--. FHIR version $-- for hl7.fhir.cl.sigescg#$-- (canonical = https:/
  C:\GI_FHIR\SigesCG\fsh-generated\resources\ValueSet-VSTipoDoc : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSDerivadoPara-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSDerivadoPara.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSDerivadoPara.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSDerivadoPara.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSDerivadoPara.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSDerivadoPara.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSExamenes-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSExamenes.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSExamenes.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSExamenes.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSExamenes.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSExamenes.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSMarca-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSMarca.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSMarca.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSMarca.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSMarca.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSMarca.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSOpcionesCierre-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSOpcionesCierre.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSOpcionesCierre.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSOpcionesCierre.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSOpcionesCierre.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSOpcionesCierre.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrestacion-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrestacion.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrestacion.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrestacion.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrestacion.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrestacion.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrevision-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrevision.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrevision.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrevision.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrevision.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSPrevision.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSProbSalud-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSProbSalud.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSProbSalud.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSProbSalud.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSProbSalud.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSProbSalud.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSTipoDoc-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSTipoDoc.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSTipoDoc.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSTipoDoc.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSTipoDoc.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\CodeSystem-CSTipoDoc.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-CierreNotifSG-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-CierreNotifSG.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-CierreNotifSG.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-CierreNotifSG.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-CierreNotifSG.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-CierreNotifSG.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-NotiAtenEsp-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-NotiAtenEsp.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-NotiAtenEsp.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-NotiAtenEsp.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-NotiAtenEsp.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-NotiAtenEsp.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-ProsDiag-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-ProsDiag.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-ProsDiag.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-ProsDiag.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-ProsDiag.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-ProsDiag.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolEndoscop-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolEndoscop.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolEndoscop.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolEndoscop.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolEndoscop.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolEndoscop.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolicitudI-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolicitudI.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolicitudI.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolicitudI.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolicitudI.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\Questionnaire-SolicitudI.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso1.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso1.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso1.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso1.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso1.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso2.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso2.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso2.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso2.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso2.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso3.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso3.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso3.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso3.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso3.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso4.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso4.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso4.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso4.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso4.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso5.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso5.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso5.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso5.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\QuestionnaireResponse-Caso5.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc-definitions.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc-mappings.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc-testing.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc.profile.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc.profile.json.html#/html/body/div/div/div/a/img at Line 99, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc.profile.ttl.html#/html/body/div/div/div/a/img at Line 99, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-TipoDoc.profile.xml.html#/html/body/div/div/div/a/img at Line 99, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios-definitions.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios-examples.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios-mappings.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios-testing.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios.profile.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios.profile.json.html#/html/body/div/div/div/a/img at Line 99, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios.profile.ttl.html#/html/body/div/div/div/a/img at Line 99, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\StructureDefinition-datos-sigges-formularios.profile.xml.html#/html/body/div/div/div/a/img at Line 99, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSDerivadoPara-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSDerivadoPara.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSDerivadoPara.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSDerivadoPara.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSDerivadoPara.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSDerivadoPara.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSExamenes-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSExamenes.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSExamenes.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSExamenes.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSExamenes.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSExamenes.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSMArca-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSMArca.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSMArca.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSMArca.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSMArca.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSMArca.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSOpcionesCierre-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSOpcionesCierre.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSOpcionesCierre.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSOpcionesCierre.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSOpcionesCierre.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSOpcionesCierre.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrestacion-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrestacion.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrestacion.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrestacion.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrestacion.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrestacion.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrevision-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrevision.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrevision.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrevision.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrevision.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSPrevision.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSProbSalud-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSProbSalud.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSProbSalud.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSProbSalud.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSProbSalud.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSProbSalud.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSTipoDoc-testing.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSTipoDoc.change.history.html#/html/body/div/div/div/a/img at Line 95, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSTipoDoc.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSTipoDoc.json.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSTipoDoc.ttl.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\ValueSet-VSTipoDoc.xml.html#/html/body/div/div/div/a/img at Line 93, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\artifacts.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\index.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
+ERROR: C:\GI_FHIR\SigesCG\output\toc.html#/html/body/div/div/div/a/img at Line 91, column 10: The image source 'assets/images/hlf2.jpg' cannot be resolved
 == fsh-generated\resources\CodeSystem-CSDerivadoPara.json ==
 == fsh-generated\resources\CodeSystem-CSExamenes.json ==
 == fsh-generated\resources\CodeSystem-CSMarca.json ==
@@ -51,7 +218,6 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.sigescg.json ==
 WARNING: ImplementationGuide/hl7.fhir.cl.sigescg: ImplementationGuide: !!La regla ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló
 == fsh-generated\resources\Questionnaire-CierreNotifSG.json ==
-WARNING: Questionnaire/CierreNotifSG: Questionnaire.item[1].text: el valor no puede empezar o terminar con espacios en blanco 'Datos asociados al cierre del caso o a la Excpción de Garantía '
 INFORMATION: Resource: The resource Questionnaire/CierreNotifSG could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated\resources\Questionnaire-NotiAtenEsp.json ==
 INFORMATION: Resource: The resource Questionnaire/NotiAtenEsp could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
@@ -61,28 +227,14 @@ INFORMATION: Resource: The resource Questionnaire/ProsDiag could usefully have a
 INFORMATION: Resource: The resource Questionnaire/SolEndoscop could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated\resources\Questionnaire-SolicitudI.json ==
 INFORMATION: Resource: The resource Questionnaire/SolicitudI could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated\resources\QuestionnaireResponse-Caso1.json ==
 == fsh-generated\resources\QuestionnaireResponse-Caso2.json ==
-ERROR: QuestionnaireResponse/Caso2: QuestionnaireResponse.item[1].item[0]: Error Estructural: los items están fuera de orden
 == fsh-generated\resources\QuestionnaireResponse-Caso3.json ==
 == fsh-generated\resources\QuestionnaireResponse-Caso4.json ==
-INFORMATION: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[3].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[3].item[0].answer[0]: !!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud::27) no está en el conjunto de valores para las opciones provisto por el cuestionario
-ERROR: QuestionnaireResponse/Caso4: QuestionnaireResponse.item[2].item[4]: El LinkId 'indicaciones' no ha sido encontrado en el cuestionario
 == fsh-generated\resources\QuestionnaireResponse-Caso5.json ==
-INFORMATION: QuestionnaireResponse/Caso5: QuestionnaireResponse.item[1].item[3].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSProbSalud' could not be found, so the code cannot be validated
-WARNING: QuestionnaireResponse/Caso5: QuestionnaireResponse: La referencia al cuestionario 'https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/Etapificacion' no pudo ser resuelta, asi que no se puede realizar la validación contra el cuestionario base
-== fsh-generated\resources\QuestionnaireResponse-SolicitudInter.json ==
-INFORMATION: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5].item[0].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSMArca' could not be found, so the code cannot be validated
-INFORMATION: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5].item[1].answer[0].value.ofType(Coding): A definition for CodeSystem 'https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSPrevision' could not be found, so the code cannot be validated
-ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse: El LinkId 'solicitudInter' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5]: El LinkId 'creditacionPac' no ha sido encontrado en el cuestionario
-ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5].item[0].answer[0]: !!El valor provisto (https://hl7chile.cl/fhir/ig/sigescg/Codesystem/CSMArca::01) no está en el conjunto de valores para las opciones provisto por el cuestionario
-ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse.item[0].item[5]: No se ha encontrado respuesta para el item requerido 'acreditacionPac'
-ERROR: QuestionnaireResponse/SolicitudInter: QuestionnaireResponse: No se ha encontrado respuesta para el item requerido 'solicitudCaso'
 == fsh-generated\resources\StructureDefinition-TipoDoc.json ==
 == fsh-generated\resources\StructureDefinition-datos-sigges-formularios.json ==
-WARNING: StructureDefinition/datos-sigges-formularios: StructureDefinition.snapshot.element[15].short: el valor no puede empezar o terminar con espacios en blanco 'Namespace del valor de identificación. '
-WARNING: StructureDefinition/datos-sigges-formularios: StructureDefinition.differential.element[4].short: el valor no puede empezar o terminar con espacios en blanco 'Namespace del valor de identificación. '
+INFORMATION: StructureDefinition/datos-sigges-formularios: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 == fsh-generated\resources\ValueSet-VSDerivadoPara.json ==
 == fsh-generated\resources\ValueSet-VSExamenes.json ==
 == fsh-generated\resources\ValueSet-VSMArca.json ==

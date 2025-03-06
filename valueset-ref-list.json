@@ -26,8 +26,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
-      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosProvinciasCL",
@@ -41,8 +41,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
-      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosRegionesCL",
@@ -56,8 +56,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
-      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesCL",
@@ -88,8 +88,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]",
-      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]",
+      "Questionnaire-NotiAtenEsp.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/NotiAtenEsp|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSDerivadoPara",
@@ -178,9 +178,9 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/sigescg/CodeSystem/CSProbSalud"],
       "uses" : {
       },
+      "Questionnaire-CierreNotifSG.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CierreNotifSG|0.1.0]",
       "Questionnaire-ProsDiag.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/ProsDiag|0.1.0]",
-      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]",
-      "Questionnaire-CierreNotifSG.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/CierreNotifSG|0.1.0]"
+      "Questionnaire-SolicitudI.html" : "Questionnaire[https://hl7chile.cl/fhir/ig/sigescg/Questionnaire/SolicitudI|0.1.0]"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/sigescg/ValueSet/VSTipoDoc",
